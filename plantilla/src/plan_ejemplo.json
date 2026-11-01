@@ -1,0 +1,12 @@
+{
+  "acento": "#22D3EE", "acento2": "#7C83FF",
+  "escenas": [
+    { "dur": 3.6, "kicker": "Comunidad de vecinos", "titulo": "Agua en el portal. / *Y tú sin coger / el teléfono.*", "ui": { "tipo": "toast", "titulo": "Nueva avería", "texto": "Fuga de agua · Portal" } },
+    { "dur": 5.6, "kicker": "Paso 1", "titulo": "El vecino avisa / por *WhatsApp.*", "ui": { "tipo": "chat", "mensajes": [ { "de": "vecino", "texto": "Sale agua del techo del portal 💧" }, { "de": "agente", "texto": "Gracias. ¿Junto al ascensor o en la entrada?" }, { "de": "vecino", "texto": "Junto al ascensor" }, { "de": "agente", "texto": "Apuntado. Aviso ahora a la empresa." } ] } },
+    { "dur": 4.8, "kicker": "Paso 2", "titulo": "El agente llama / a *la empresa / que toca.*", "ui": { "tipo": "flujo", "nodos": ["Vecino", "Agente IA", "Fontanero"], "llamada": "Llamando al fontanero…" } },
+    { "dur": 5.0, "kicker": "Paso 3", "titulo": "Tú lo ves todo / *en el panel.*", "ui": { "tipo": "estados", "filas": [ { "texto": "Fuga de agua · Portal", "estado": "rojo", "animar": true }, { "texto": "Luz escalera B", "estado": "ambar" }, { "texto": "Puerta del garaje", "estado": "verde" } ] } },
+    { "dur": 4.4, "kicker": "¿Y si es en casa?", "titulo": "Avería dentro / de una vivienda.", "ui": { "tipo": "tachado", "antes": "Llamar a la empresa", "despues": "Lo lleva su seguro" } },
+    { "dur": 4.6, "outro": { "tagline": "Tu comunidad, en piloto automático.", "cta": "Síguenos · @comunia.cat" } }
+  ],
+  "portada": { "media": "", "kicker": "ADMINISTRADORES", "lineas": ["Averías", "*que se avisan*", "solas"] }
+}
