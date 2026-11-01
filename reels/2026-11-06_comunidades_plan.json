@@ -1,0 +1,113 @@
+{
+ "acento": "#22D3EE",
+ "acento2": "#7C83FF",
+ "escenas": [
+  {
+   "dur": 3.6,
+   "media": "media/6221104.mp4",
+   "kicker": "Comunidades",
+   "titulo": "¿Todas tus / comunidades / *en un Excel?*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Importación completada",
+    "texto": "Comunidades y propietarios"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/12894327.mp4",
+   "kicker": "Importar desde Excel",
+   "titulo": "Lo subes y / *se cargan / de golpe.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Eliges tu Excel",
+     "Lo subes al panel",
+     "Todo cargado"
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/34941081.mp4",
+   "kicker": "La ficha",
+   "titulo": "Cada comunidad, / *con su ficha.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Ficha de la comunidad",
+    "filas": [
+     {
+      "texto": "Datos y edificio",
+      "estado": "verde",
+      "etiqueta": "Completo"
+     },
+     {
+      "texto": "Seguro",
+      "estado": "verde",
+      "etiqueta": "Completo"
+     },
+     {
+      "texto": "Documentos",
+      "estado": "ambar",
+      "etiqueta": "Pendiente"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/37410328.mp4",
+   "kicker": "Obligaciones",
+   "titulo": "Las obligaciones, / *con semáforo.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Obligaciones",
+    "filas": [
+     {
+      "texto": "Inspección del edificio",
+      "estado": "rojo",
+      "etiqueta": "Vencida"
+     },
+     {
+      "texto": "Revisión del ascensor",
+      "estado": "ambar",
+      "etiqueta": "Se acerca"
+     },
+     {
+      "texto": "Póliza del seguro",
+      "estado": "verde",
+      "etiqueta": "Al día"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/19798253.mp4",
+   "kicker": "Resultado",
+   "titulo": "Nada se te / *pasa de fecha.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Fechas en la cabeza",
+    "despues": "Todo a la vista"
+   }
+  },
+  {
+   "dur": 4.6,
+   "outro": {
+    "tagline": "Tu comunidad, en piloto automático.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "media": "media/portada.jpg",
+  "kicker": "COMUNIA",
+  "lineas": [
+   "Tu Excel,",
+   "*cargado",
+   "de golpe*"
+  ]
+ }
+}

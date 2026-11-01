@@ -1,0 +1,110 @@
+{
+ "acento": "#A3E635",
+ "acento2": "#10B981",
+ "escenas": [
+  {
+   "dur": 3.6,
+   "media": "media/8987291.mp4",
+   "kicker": "Proveedores",
+   "titulo": "Tus proveedores, / *siempre / a mano.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Proveedor añadido",
+    "texto": "Fontanería · con oficio y teléfono"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/35206231.mp4",
+   "kicker": "Importante",
+   "titulo": "Cada uno con / *su oficio y / su teléfono.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Proveedores",
+    "filas": [
+     {
+      "texto": "Fontanero",
+      "estado": "verde",
+      "etiqueta": "Completo"
+     },
+     {
+      "texto": "Electricista",
+      "estado": "verde",
+      "etiqueta": "Completo"
+     },
+     {
+      "texto": "Ascensores",
+      "estado": "ambar",
+      "etiqueta": "Falta teléfono"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/7641180.mp4",
+   "kicker": "Por qué",
+   "titulo": "Así el agente / *sabe a quién / llamar.*",
+   "ui": {
+    "tipo": "flujo",
+    "nodos": [
+     "Avería",
+     "Agente IA",
+     "Electricista"
+    ],
+    "llamada": "Llamando al electricista…"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/8321904.mp4",
+   "kicker": "Agenda",
+   "titulo": "Y tu agenda, / *dictada.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "Apunta la revisión del ascensor el lunes a las 9"
+     },
+     {
+      "de": "agente",
+      "texto": "Apuntado en tu agenda."
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/7250670.mp4",
+   "kicker": "Agenda",
+   "titulo": "Todo en / *el calendario / del mes.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Escribes qué es",
+     "Le pones fecha",
+     "Aparece en el mes"
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "outro": {
+    "tagline": "Tu comunidad, en piloto automático.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "media": "media/portada.jpg",
+  "kicker": "COMUNIA",
+  "lineas": [
+   "Tus",
+   "*proveedores*",
+   "a mano"
+  ]
+ }
+}

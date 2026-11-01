@@ -1,0 +1,98 @@
+{
+ "acento": "#34D399",
+ "acento2": "#22D3EE",
+ "escenas": [
+  {
+   "dur": 3.6,
+   "media": "media/8731242.mp4",
+   "kicker": "Asambleas",
+   "titulo": "La asamblea, / *sin papeleo.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "ambar",
+    "titulo": "Convocatoria lista",
+    "texto": "Orden del día · 3 puntos"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/12893569.mp4",
+   "kicker": "Paso 1",
+   "titulo": "Creas la asamblea / y *el orden / del día.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Creas la asamblea",
+     "Añades los puntos",
+     "Envías la convocatoria"
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/8344350.mp4",
+   "kicker": "Paso 2",
+   "titulo": "Se vota y / *las mayorías / salen solas.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Votaciones",
+    "filas": [
+     {
+      "texto": "Pintar la fachada",
+      "estado": "verde",
+      "etiqueta": "Aprobado"
+     },
+     {
+      "texto": "Cambiar el portero",
+      "estado": "rojo",
+      "etiqueta": "No aprobado"
+     },
+     {
+      "texto": "Presupuesto anual",
+      "estado": "verde",
+      "etiqueta": "Aprobado"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/8814706.mp4",
+   "kicker": "Paso 3",
+   "titulo": "Firman en la tablet / y *el acta / se hace sola.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Redactar el acta",
+    "despues": "Acta en PDF"
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/6608213.mp4",
+   "kicker": "Paso 4",
+   "titulo": "Convocatoria y acta, / *enviadas desde / el panel.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Acta enviada",
+    "texto": "A todos los vecinos"
+   }
+  },
+  {
+   "dur": 4.6,
+   "outro": {
+    "tagline": "Tu comunidad, en piloto automático.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "media": "media/portada.jpg",
+  "kicker": "COMUNIA",
+  "lineas": [
+   "Asambleas",
+   "*sin",
+   "papeleo*"
+  ]
+ }
+}

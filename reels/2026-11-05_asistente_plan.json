@@ -1,0 +1,107 @@
+{
+ "acento": "#A78BFA",
+ "acento2": "#F472B6",
+ "escenas": [
+  {
+   "dur": 4.4,
+   "media": "media/7821405.mp4",
+   "kicker": "El Asistente",
+   "titulo": "Pregúntale / *lo que quieras.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "¿Qué averías hay abiertas?"
+     },
+     {
+      "de": "agente",
+      "texto": "Tienes dos: luz de la escalera B y puerta del garaje."
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/7261927.mp4",
+   "kicker": "Por escrito o por voz",
+   "titulo": "Escríbele / *o háblale.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "Apunta una reunión el jueves a las 10"
+     },
+     {
+      "de": "agente",
+      "texto": "La apunto en tu agenda. ¿Confirmo?"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/7247861.mp4",
+   "kicker": "Con el clip",
+   "titulo": "Súbele una factura / *y te dice / qué es.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Pulsas el clip",
+     "Subes la factura o póliza",
+     "Te dice qué es y dónde va"
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/12896409.mp4",
+   "kicker": "Tranquilo",
+   "titulo": "Nunca hace nada / *por su cuenta.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Actuar solo",
+    "despues": "Tú confirmas"
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/8472307.mp4",
+   "kicker": "Y además",
+   "titulo": "Te lleva / *a la pantalla / que buscas.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "¿Dónde doy de alta un proveedor?"
+     },
+     {
+      "de": "agente",
+      "texto": "Te llevo ahora a Proveedores."
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "outro": {
+    "tagline": "Tu comunidad, en piloto automático.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "media": "media/portada.jpg",
+  "kicker": "COMUNIA",
+  "lineas": [
+   "Pregúntale",
+   "*lo que",
+   "quieras*"
+  ]
+ }
+}

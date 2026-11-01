@@ -1,0 +1,98 @@
+{
+ "acento": "#FB923C",
+ "acento2": "#F43F5E",
+ "escenas": [
+  {
+   "dur": 3.6,
+   "media": "media/25932454.mp4",
+   "kicker": "Resumen",
+   "titulo": "Tu despacho, / *de un vistazo.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "ambar",
+    "titulo": "Resumen de hoy",
+    "texto": "Averías pendientes · vecinos · comunidades"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/7307854.mp4",
+   "kicker": "Pantalla de inicio",
+   "titulo": "Comunidades, vecinos / y *averías / pendientes.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Resumen",
+    "filas": [
+     {
+      "texto": "Comunidades",
+      "estado": "verde",
+      "etiqueta": "Al día"
+     },
+     {
+      "texto": "Recibos impagados",
+      "estado": "rojo",
+      "etiqueta": "Revisar"
+     },
+     {
+      "texto": "Averías",
+      "estado": "ambar",
+      "etiqueta": "En curso"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/6998323.mp4",
+   "kicker": "El buscador",
+   "titulo": "Encuentra a / *cualquier vecino.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Escribes un nombre",
+     "O teléfono, email o DNI",
+     "Aparece el vecino"
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/7652166.mp4",
+   "kicker": "Cada mañana",
+   "titulo": "Y el resumen, / *en tu email.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Resumen diario",
+    "texto": "Enviado a tu email"
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/19816673.mp4",
+   "kicker": "Resultado",
+   "titulo": "Menos llamadas. / *Más tiempo.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Apagar fuegos",
+    "despues": "Todo bajo control"
+   }
+  },
+  {
+   "dur": 4.6,
+   "outro": {
+    "tagline": "Tu comunidad, en piloto automático.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "media": "media/portada.jpg",
+  "kicker": "COMUNIA",
+  "lineas": [
+   "Tu despacho",
+   "*de un",
+   "vistazo*"
+  ]
+ }
+}

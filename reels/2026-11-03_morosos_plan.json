@@ -1,0 +1,97 @@
+{
+ "acento": "#FFB020",
+ "acento2": "#FF5E62",
+ "escenas": [
+  {
+   "dur": 3.6,
+   "media": "media/6781912.mp4",
+   "kicker": "Administradores de fincas",
+   "titulo": "¿Persiguiendo / *recibos / impagados?*",
+   "ui": {
+    "tipo": "toast",
+    "titulo": "3 recibos impagados",
+    "texto": "Comunidad · Propietarios"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/5924997.mp4",
+   "kicker": "Vecinos y morosos",
+   "titulo": "Los morosos, / *arriba y / a la vista.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Propietarios",
+    "filas": [
+     {
+      "texto": "2ºA · recibo de marzo",
+      "estado": "rojo",
+      "etiqueta": "Debe"
+     },
+     {
+      "texto": "4ºC · recibo de abril",
+      "estado": "rojo",
+      "etiqueta": "Debe"
+     },
+     {
+      "texto": "1ºB",
+      "estado": "verde",
+      "etiqueta": "Al corriente"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/13801233.mp4",
+   "kicker": "Paso 1",
+   "titulo": "El recordatorio, / *con un clic.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Eliges el recibo",
+     "Pulsas Enviar",
+     "El vecino recibe el aviso"
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/8086207.mp4",
+   "kicker": "Paso 2",
+   "titulo": "Certificado de deuda / *en PDF, al momento.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Redactarlo a mano",
+    "despues": "PDF en un clic"
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/6325839.mp4",
+   "kicker": "Y además",
+   "titulo": "El de estar / *al corriente*, / también.",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Certificado listo",
+    "texto": "PDF · al corriente de pago"
+   }
+  },
+  {
+   "dur": 4.6,
+   "outro": {
+    "tagline": "Tu comunidad, en piloto automático.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "media": "media/portada.jpg",
+  "kicker": "COMUNIA",
+  "lineas": [
+   "Morosos",
+   "*sin",
+   "perseguir*"
+  ]
+ }
+}
