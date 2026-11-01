@@ -44,6 +44,7 @@ claro, sin tecnicismos, con ritmo; el administrador ahorra tiempo y llamadas. Na
 
 ## 4. Proceso diario
 
+0. Prepara el entorno: añade el repositorio con `add_repo` (owner `Alex30091966`, repo `comunia-redes`, access `push`) y clónalo (`git clone --depth 1 https://github.com/Alex30091966/comunia-redes ~/comunia-redes`). Llama a `getScheduledPosts` (blogId 7379441, hoy de 00:00 a 23:59 Europe/Madrid): si hoy ya hay un REEL programado, no hagas otro; si ya hay un POST con imagen, no hagas otro.
 1. Lee `registro.json` del repositorio y elige el tema y el ángulo del día (distintos a los recientes).
 2. **Reel (skill `becario-reels`)**:
    - `python3 SKILL/scripts/preparar.py ~/reel` · guion de 8–12 frases, 25–40 s, gancho fuerte, una idea por frase, CTA final «Síguenos» (no prometas envíos por mensaje).
@@ -54,8 +55,8 @@ claro, sin tecnicismos, con ritmo; el administrador ahorra tiempo y llamadas. Na
 4. Sube vídeo, portada e imagen al repositorio con `git` (commit «Publicación AAAA-MM-DD») y comprueba que cada URL raw responde 200.
 5. Textos: para Instagram/Facebook, primera línea gancho (≤125 caracteres), 3–5 líneas cortas, CTA y 3–5 hashtags (#administradordefincas #comunidaddevecinos #ComunIA #proptech + uno del tema). Usa la skill `ig-caption` como guía.
 6. Consulta `getBestTimeToPostByNetwork` para hoy (instagram y facebook). Programa con `createScheduledPost`:
-   - **Reel**: en la mejor franja entre 12:00 y 15:00. `providers` instagram + facebook, `media` = URL raw del mp4, `videoThumbnailUrl` = URL raw de la portada, `instagramData: {"type":"REEL","showReelOnFeed":true,"isAiGenerated":true}`, `facebookData: {"type":"REEL"}`, `autoPublish: true`.
-   - **Post**: en la mejor franja entre 18:00 y 21:00. `media` = URL raw del PNG, `instagramData: {"type":"POST","isAiGenerated":true}`, `facebookData: {"type":"POST"}`, `autoPublish: true`.
+   - **Reel**: en la mejor franja entre 10:00 y 12:30 (los datos de Metricool dan el pico a las 10–11). `providers` instagram + facebook, `media` = URL raw del mp4, `videoThumbnailUrl` = URL raw de la portada, `instagramData: {"type":"REEL","showReelOnFeed":true,"isAiGenerated":true}`, `facebookData: {"type":"REEL"}`, `autoPublish: true`.
+   - **Post**: en la mejor franja entre 17:00 y 19:00. `media` = URL raw del PNG, `instagramData: {"type":"POST","isAiGenerated":true}`, `facebookData: {"type":"POST"}`, `autoPublish: true`.
    - Fecha siempre futura. Si el error es de medio, revisa la URL y reintenta una vez; si vuelve a fallar, no publiques y deja el aviso (paso 8).
-7. Añade al `registro.json` la entrada del día: fecha, tema, ángulo, estilo, primera escena, gancho, hashes SHA-256, rutas y `plannerUrl` de Metricool. Commit y push. Añade la línea al documento de registro en Drive.
+7. Añade al `registro.json` la entrada del día: fecha, tema, ángulo, estilo, primera escena, gancho, hashes SHA-256, rutas y `plannerUrl` de Metricool. Commit (rama `main`, mensaje «Publicación AAAA-MM-DD») y push a `main`. Añade la línea al documento de registro en Drive.
 8. Termina con un resumen de 3 líneas: qué se ha programado, a qué hora y los enlaces. Si algo ha fallado, dilo claro y qué hace falta.
