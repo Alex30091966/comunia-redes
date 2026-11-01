@@ -46,7 +46,7 @@ Público: administradores de fincas y despachos en España. Tono: cercano, segur
 
 ## 4. Proceso diario
 
-0. **Entorno**: `add_repo` (owner `Alex30091966`, repo `comunia-redes`, access `push`) y `git clone --depth 1 https://github.com/Alex30091966/comunia-redes ~/comunia-redes`. Prepara Remotion con la skill `becario-reels`: `python3 <SKILL>/scripts/preparar.py ~/reel` (instala dependencias y busca navegador). Luego `cp -r ~/comunia-redes/plantilla ~/pro && ln -s ~/reel/node_modules ~/pro/node_modules`.
+0. **Entorno**: `add_repo` (owner `Alex30091966`, repo `comunia-redes`, access `push`) y clónalo sin bajar todo el banco de vídeos (pesa mucho): `git clone --depth 1 --filter=blob:none --sparse https://github.com/Alex30091966/comunia-redes ~/comunia-redes && cd ~/comunia-redes && git sparse-checkout set --no-cone '/*' '!/banco/pool/videos/' '!/banco/pool/fotos/'`. Para traer solo los clips elegidos: `git sparse-checkout add /banco/pool/videos/<id>.mp4` (uno por clip) o `git checkout origin/main -- banco/pool/videos/<id>.mp4`. Prepara Remotion con la skill `becario-reels`: `python3 <SKILL>/scripts/preparar.py ~/reel` (instala dependencias y busca navegador). Luego `cp -r ~/comunia-redes/plantilla ~/pro && ln -s ~/reel/node_modules ~/pro/node_modules`.
    Mira `getScheduledPosts` (blogId 7379441, hoy 00:00–23:59): si ya hay un REEL hoy, no hagas otro; si ya hay un POST, tampoco.
 1. Lee `registro.json` y elige tema y ángulo del día.
 2. **Guion del reel** (5–7 escenas, 25–32 s): escribe `~/pro/src/plan.json` con la forma de `plan_ejemplo.json`:
