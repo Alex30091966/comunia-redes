@@ -1,23 +1,31 @@
 {
   "publicaciones": [
     {
-      "fecha": "2026-11-01",
+      "fecha": "2026-11-02",
       "tipo": "reel",
       "tema": "averias",
       "angulo": "paso a paso",
-      "estilo": "noche",
-      "primeraEscena": "titular",
-      "gancho": "Una avería en la comunidad sin coger el teléfono",
+      "colores": "cian/indigo",
+      "primeraEscena": "toast",
+      "gancho": "Agua en el portal. Y tú sin coger el teléfono.",
       "archivos": {
-        "video": "reels/2026-11-01_averias.mp4",
-        "portada": "reels/2026-11-01_averias_portada.png"
+        "video": "reels/2026-11-02_averias_pro.mp4",
+        "portada": "reels/2026-11-02_averias_pro_portada.png"
       },
       "sha256": [
-        "e4c837b3e4f3f198fa8febfa88fce84c14e9c916b713a2a012c95a0176200e6e",
-        "7e81772708cb2bf7cc96886e379aeef939a90aef9ca6f0ded5765e8d1e750295"
+        "989df5b4beb931e62967ca20752a60232afa2c7db04fa8bd2a08ce0d6283658c",
+        "0ab1ff318bb55990fc1adb4930c43cad1374ed21e43531c2efa3f548104e8d8e"
+      ],
+      "pexels_ids": [
+        8558748,
+        6000606,
+        8853520,
+        7706608,
+        6247913,
+        39788681
       ],
       "metricool": {
-        "id": 413085228,
+        "id": 413249508,
         "programado": "2026-11-02T10:30 Europe/Madrid",
         "redes": [
           "instagram",
