@@ -10,7 +10,7 @@ import { BellRing, Check, Phone, User, Sparkles, Wrench, ShieldCheck, X, Message
 type UI =
   | { tipo: "toast"; titulo: string; texto: string; color?: "rojo" | "ambar" | "verde" }
   | { tipo: "chat"; cabecera?: string; mensajes: { de: "vecino" | "agente"; texto: string }[] }
-  | { tipo: "estados"; titulo?: string; filas: { texto: string; estado: "rojo" | "ambar" | "verde"; animar?: boolean }[] }
+  | { tipo: "estados"; titulo?: string; filas: { texto: string; estado: "rojo" | "ambar" | "verde"; animar?: boolean; etiqueta?: string }[] }
   | { tipo: "flujo"; nodos: [string, string, string]; llamada?: string }
   | { tipo: "tachado"; antes: string; despues: string }
   | { tipo: "pasos"; pasos: string[] };
@@ -295,7 +295,7 @@ const Estados: React.FC<{ ui: Extract<UI, { tipo: "estados" }>; inicio: number; 
             <div key={i} style={{ display: "flex", alignItems: "center", gap: 20, padding: "20px 8px", borderTop: i ? `1px solid ${C.borde}` : "none", opacity: t, transform: `translateX(${(1 - t) * 60}px)` }}>
               <div style={{ width: 18, height: 18, borderRadius: 9, background: c, boxShadow: `0 0 18px ${c}` }} />
               <span style={{ fontFamily: F.texto, fontWeight: 600, fontSize: 31, color: C.blanco, flex: 1 }}>{r.texto}</span>
-              <span style={{ fontFamily: F.texto, fontWeight: 800, fontSize: 24, color: c, background: `${c}22`, border: `1.5px solid ${c}66`, padding: "10px 18px", borderRadius: 999 }}>{etq(e)}</span>
+              <span style={{ fontFamily: F.texto, fontWeight: 800, fontSize: 24, color: c, background: `${c}22`, border: `1.5px solid ${c}66`, padding: "10px 18px", borderRadius: 999 }}>{(!r.animar && r.etiqueta) || etq(e)}</span>
             </div>
           );
         })}
