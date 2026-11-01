@@ -33,7 +33,7 @@ Público: administradores de fincas y despachos en España. Tono: cercano, segur
 - Repositorio público de medios: **Alex30091966/comunia-redes** (rama `main`):
   - `plantilla/` → motor del reel (Remotion). `reels/`, `posts/`, `registro.json`.
   - URL pública: `https://raw.githubusercontent.com/Alex30091966/comunia-redes/main/<ruta>`
-- Metraje: API de Pexels con la variable `PEXELS_API_KEY`. Si falta la clave o Pexels no responde, **no publiques**: termina avisando del problema.
+- Metraje: **banco de Pexels en el repo** (`banco/pool/videos/*.mp4`, `banco/pool/fotos/*.jpg`, índice en `banco/pool/indice.json` con id, consulta, autor). Usa solo ids que no estén en `pexels_ids` de `registro.json`. Si el entorno tiene `PEXELS_API_KEY` y acceso a api.pexels.com, puedes usar también `plantilla/pexels.py`. Si quedan menos de 25 vídeos sin usar, avísalo en el resumen final («Banco de Pexels casi vacío: quedan N»). Si no hay suficientes para el reel, **no publiques** y avisa.
 - Registro legible en Google Drive: documento «Registro de publicaciones ComunIA» (carpeta id `1T9KUNFmys5vNabjEqpYvaqiKZ6UtRT5u`).
 
 ## 3. Reglas que no se rompen nunca
@@ -54,10 +54,10 @@ Público: administradores de fincas y despachos en España. Tono: cercano, segur
    - Escenas intermedias: un paso o idea por escena con su tarjeta `ui` (`toast`, `chat`, `flujo`, `estados`, `tachado`, `pasos`). No repitas el mismo tipo seguido.
    - Última escena: `outro` con `tagline` y `cta` («Síguenos · @comunia.cat»).
    - En `titulo`, `/` parte línea y `*palabras*` van en degradado de acento. Alterna el par de colores `acento`/`acento2` cada día (p. ej. cian/índigo, ámbar/coral, verde menta/turquesa, violeta/rosa) y anótalo en el registro para no repetirlo en 7 días.
-3. **Metraje real**: `cd ~/pro && python3 pexels.py "consulta 1|consulta 2|…" --registro ~/comunia-redes/registro.json` con una consulta en inglés por escena, concreta y ligada al guion (p. ej. «water leak ceiling», «plumber fixing pipe», «apartment building entrance», «property manager laptop office», «woman texting phone hallway», «neighbors meeting»). Pon `"media": "media/N.mp4"` en cada escena (no en el `outro`). Si un clip no encaja, cambia la consulta y repite.
+3. **Metraje real**: elige del banco (`banco/pool/indice.json`) un vídeo sin usar por escena cuya `consulta` encaje con lo que dice esa escena. Antes de decidir, saca un fotograma de cada candidato (`ffmpeg -ss 2 -i X.mp4 -frames:v 1 x.png`) y míralo: si no encaja con la escena, elige otro. Cópialos a `~/pro/public/media/N.mp4` y pon `"media": "media/N.mp4"` en cada escena (no en el `outro`). Para la portada usa una foto sin usar de `banco/pool/fotos/`.
 4. **Revisa antes de renderizar**: `node render.mjs foto 1.5 6 11 16 21` y mira las imágenes (texto legible, nada tapado, metraje acorde). Corrige y repite.
-5. **Render**: `bash hacer.sh <número del día del año>` → `salida/reel.mp4` (con música original) y `salida/portada.png` (pon antes en `portada.media` una foto de Pexels con `pexels.py --fotos`).
-6. **Post con imagen** (1080×1350): foto real de Pexels (`pexels.py "…" --fotos`, sin repetir) + titular grande con el mismo sistema visual (fuentes Space Grotesk/Inter, degradado de acento, marca ComunIA), generada con HTML + Playwright. Tema distinto al del reel.
+5. **Render**: `bash hacer.sh <número del día del año>` → `salida/reel.mp4` (con música original) y `salida/portada.png` (pon antes en `portada.media` una foto del banco copiada a `public/media/portada.jpg`).
+6. **Post con imagen** (1080×1350): foto real del banco (`banco/pool/fotos/`, sin repetir) + titular grande con el mismo sistema visual (fuentes Space Grotesk/Inter, degradado de acento, marca ComunIA), generada con HTML + Playwright. Tema distinto al del reel.
 7. Sube a `reels/AAAA-MM-DD_tema.mp4`, `reels/AAAA-MM-DD_tema_portada.png`, `posts/AAAA-MM-DD_tema.png` y el `plan.json` como `reels/AAAA-MM-DD_tema_plan.json`. Commit «Publicación AAAA-MM-DD» y push a `main`. Comprueba que cada URL raw responde 200.
 8. **Textos** (skill `ig-caption` como guía): primera línea gancho (≤125 caracteres), 3–5 líneas cortas, CTA, 3–5 hashtags (#administradordefincas #comunidaddevecinos #ComunIA #proptech + uno del tema). Añade al final «🎥 Pexels» como crédito.
 9. **Programar** con `createScheduledPost`:
