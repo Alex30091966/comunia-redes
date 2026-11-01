@@ -87,7 +87,7 @@ const Metraje: React.FC<{ src?: string; dur: number; i: number }> = ({ src, dur,
         <AbsoluteFill style={{ background: "radial-gradient(120% 80% at 50% 20%, #1B2A55 0%, #060A16 60%)" }} />
       )}
       {/* grade: tinte azul noche + contraste para legibilidad */}
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(6,10,22,0.78) 0%, rgba(6,10,22,0.18) 34%, rgba(6,10,22,0.25) 58%, rgba(6,10,22,0.92) 100%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(6,10,22,0.9) 0%, rgba(6,10,22,0.55) 30%, rgba(6,10,22,0.15) 48%, rgba(6,10,22,0.3) 62%, rgba(6,10,22,0.92) 100%)" }} />
       <AbsoluteFill style={{ background: "rgba(20,40,110,0.18)", mixBlendMode: "color" }} />
     </AbsoluteFill>
   );
@@ -147,7 +147,7 @@ const Titulo: React.FC<{ texto: string; inicio: number; acento: string; acento2:
                     fontFamily: F.titulo, fontWeight: 700, fontSize: tam, lineHeight: 1.02, letterSpacing: -2.5,
                     color: C.blanco,
                     ...(a
-                      ? { backgroundImage: `linear-gradient(92deg, ${acento} 0%, ${acento2} 100%)`, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }
+                      ? { backgroundImage: `linear-gradient(92deg, ${acento} 0%, ${acento2} 100%)`, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent", filter: "drop-shadow(0 4px 18px rgba(0,0,0,0.6))" }
                       : {}),
                     textShadow: a ? "none" : "0 6px 30px rgba(0,0,0,0.45)",
                   }}
