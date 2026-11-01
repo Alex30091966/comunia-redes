@@ -1,0 +1,48 @@
+{
+  "titulo": "Averías que se avisan solas",
+  "estilo": "noche",
+  "subtitulos": "linea",
+  "voz": false,
+  "frases": [
+    {
+      "texto": "Una avería en la comunidad *sin coger el teléfono.*",
+      "sinSubtitulos": true,
+      "escena": { "tipo": "titular", "etiqueta": "ADMINISTRADORES", "texto": "Una avería / en la comunidad / *sin coger / el teléfono*", "icono": "phone-off", "en": ["teléfono"] }
+    },
+    {
+      "texto": "El vecino avisa *por WhatsApp* o llamando.",
+      "escena": { "tipo": "movil", "titulo": "Fuga en el portal", "subtitulo": "vecino 3º B", "icono": "message-circle", "pegatina": "WhatsApp", "en": ["vecino", "WhatsApp", "llamando"] }
+    },
+    {
+      "texto": "El agente de ComunIA *apunta la avería* y pregunta lo que falte.",
+      "escena": { "tipo": "chat", "titulo": "ComunIA", "mensaje": "Hay agua en el portal", "respuesta": "Avería apuntada", "pildora": "pregunta lo que falte", "en": ["agente", "apunta", "averia", "pregunta", "falte"] }
+    },
+    {
+      "texto": "Luego *avisa y llama* a la empresa que toca.",
+      "escena": { "tipo": "pasos", "pasos": [ { "texto": "Avisa a la empresa", "icono": "bell-ring" }, { "texto": "La llama", "icono": "phone-call" }, { "texto": "Fontanero en camino", "icono": "wrench" } ], "en": ["avisa", "llama", "empresa"] }
+    },
+    {
+      "texto": "Y a ti te sale *un aviso rojo* en el panel.",
+      "entrada": "semitono",
+      "escena": { "tipo": "contador", "valor": 1, "desde": 0, "etiqueta": "avería nueva", "icono": "siren", "en": ["sale", "rojo"] }
+    },
+    {
+      "texto": "¿La avería es *dentro de una vivienda?*",
+      "escena": { "tipo": "objecion", "texto": "Es el grifo de un vecino", "respuesta": "No molesta a nadie", "en": ["averia", "vivienda"] }
+    },
+    {
+      "texto": "Le dice al vecino que lo lleve *con su seguro.*",
+      "escena": { "tipo": "tachado", "antes": "Llamar a la empresa", "despues": "Su seguro", "icono": "shield-check", "en": ["vecino", "seguro"] }
+    },
+    {
+      "texto": "Rojo, amarillo y verde: *cada avería* de un vistazo.",
+      "escena": { "tipo": "lista", "titulo": "Incidencias", "items": [ { "texto": "Rojo: sin gestionar", "icono": "circle-alert" }, { "texto": "Amarillo: empresa avisada", "icono": "clock" }, { "texto": "Verde: resuelta", "icono": "circle-check" } ], "en": ["Rojo", "amarillo", "verde"] }
+    },
+    {
+      "texto": "Síguenos y descubre *más de ComunIA.*",
+      "sinSubtitulos": true,
+      "escena": { "tipo": "cta", "verbo": "Síguenos", "palabra": "COMUNIA", "texto": "tu comunidad, / en piloto automático", "iconos": ["building", "wrench", "bell", "users", "check"], "en": ["Síguenos", "descubre", "ComunIA"] }
+    }
+  ],
+  "portada": { "etiqueta": "COMUNIA", "lineas": ["AVERÍAS", "*SE AVISAN*", "SOLAS"], "icono": "wrench", "pegatina": "sin llamadas" }
+}

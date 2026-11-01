@@ -1,0 +1,16 @@
+{
+  "publicaciones": [
+    {
+      "fecha": "2026-11-01",
+      "tipo": "reel",
+      "tema": "averias",
+      "angulo": "paso a paso",
+      "estilo": "noche",
+      "primeraEscena": "titular",
+      "gancho": "Una avería en la comunidad sin coger el teléfono",
+      "archivos": {"video": "reels/2026-11-01_averias.mp4", "portada": "reels/2026-11-01_averias_portada.png"},
+      "sha256": ["e4c837b3e4f3f198fa8febfa88fce84c14e9c916b713a2a012c95a0176200e6e", "7e81772708cb2bf7cc96886e379aeef939a90aef9ca6f0ded5765e8d1e750295"],
+      "metricool": null
+    }
+  ]
+}
