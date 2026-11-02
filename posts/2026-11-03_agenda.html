@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:SG;src:url(space-grotesk-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:In;src:url(inter-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:In;src:url(inter-latin-800-normal.woff2);font-weight:800}
+:root{--a:#38BDF8;--b:#E879F9}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;overflow:hidden;background:#060A16;font-family:In;color:#fff}
+.bg{position:absolute;inset:0;background:url(foto.jpg) center 30%/cover;filter:saturate(.9) contrast(1.05) blur(3px);transform:scale(1.04)}
+.ov1{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,10,22,.55) 0%,rgba(6,10,22,.2) 22%,rgba(6,10,22,.6) 45%,rgba(6,10,22,.93) 68%,#060A16 100%)}
+.ov2{position:absolute;inset:0;background:rgba(20,40,110,.22);mix-blend-mode:color}
+.vig{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 40%,transparent 55%,rgba(0,0,0,.55) 100%)}
+.top{position:absolute;top:64px;left:72px;right:72px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:SG;font-size:44px;letter-spacing:-1px}
+.logo b{background:linear-gradient(92deg,var(--a),var(--b));-webkit-background-clip:text;color:transparent}
+.pill{font-size:22px;letter-spacing:4px;text-transform:uppercase;padding:12px 22px;border-radius:999px;background:rgba(12,18,36,.62);border:1.5px solid rgba(255,255,255,.18);backdrop-filter:blur(18px)}
+.card{position:absolute;top:250px;left:72px;width:620px;padding:30px 32px;border-radius:34px;background:rgba(12,18,36,.62);border:1.5px solid rgba(255,255,255,.14);backdrop-filter:blur(22px) saturate(140%);box-shadow:0 30px 80px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.12)}
+.lab{font-size:20px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.dot{width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,var(--a),var(--b));box-shadow:0 0 16px var(--a)}
+.msg{font-size:27px;line-height:1.35;padding:18px 22px;border-radius:24px 24px 24px 8px;background:rgba(255,255,255,.1);margin-bottom:18px}
+.cita{display:flex;gap:18px;align-items:center;padding:18px 20px;border-radius:22px;background:rgba(255,255,255,.06);border:1.5px solid rgba(255,255,255,.12)}
+.dia{width:118px;height:92px;border-radius:20px;display:grid;place-items:center;text-align:center;background:linear-gradient(135deg,var(--a),var(--b));font-family:SG;line-height:1}
+.dia small{font-family:In;font-size:16px;letter-spacing:2px;display:block;margin-bottom:4px}
+.dia span{font-size:34px}
+.ct{font-size:27px;font-weight:800}.cs{font-size:22px;color:rgba(255,255,255,.65);margin-top:6px}
+.btns{display:flex;gap:14px;margin-top:20px;justify-content:flex-end}
+.btn{font-size:22px;padding:12px 26px;border-radius:999px;border:1.5px solid rgba(255,255,255,.2);color:rgba(255,255,255,.8)}
+.btn.ok{border:0;color:#060A16;font-weight:800;background:linear-gradient(92deg,var(--a),var(--b));box-shadow:0 8px 30px rgba(56,189,248,.45)}
+.txt{position:absolute;left:72px;right:72px;bottom:150px}
+.mito{font-size:30px;color:rgba(255,255,255,.62);margin-bottom:22px}
+.mito s{text-decoration-color:var(--b);text-decoration-thickness:3px}
+.mito em{font-style:normal;font-size:20px;letter-spacing:4px;margin-right:14px;color:var(--b)}
+h1{font-family:SG;font-size:104px;line-height:.98;letter-spacing:-3.5px;text-shadow:0 6px 30px rgba(0,0,0,.45)}
+h1 i{font-style:normal;background:linear-gradient(92deg,var(--a),var(--b));-webkit-background-clip:text;color:transparent}
+.sub{font-size:30px;line-height:1.4;color:rgba(255,255,255,.75);margin-top:26px;max-width:880px}
+.foot{position:absolute;left:72px;right:72px;bottom:64px;display:flex;justify-content:space-between;font-size:22px;color:rgba(255,255,255,.55);border-top:1.5px solid rgba(255,255,255,.12);padding-top:22px}
+</style></head><body>
+<div class="bg"></div><div class="ov1"></div><div class="ov2"></div><div class="vig"></div>
+<div class="top"><div class="logo">Comun<b>IA</b></div><div class="pill">Mito vs. realidad</div></div>
+<div class="card">
+ <div class="lab"><span class="dot"></span>Asistente</div>
+ <div class="msg">«Apúntame una reunión con el presidente el jueves a las seis»</div>
+ <div class="cita"><div class="dia"><div><small>JUE</small><span>18:00</span></div></div>
+  <div><div class="ct">Reunión con el presidente</div><div class="cs">Agenda · nueva cita</div></div></div>
+ <div class="btns"><div class="btn">Cancelar</div><div class="btn ok">Confirmar</div></div>
+</div>
+<div class="txt">
+ <div class="mito"><em>MITO</em><s>La agenda, a boli y en papel.</s></div>
+ <h1>Tu agenda,<br><i>dictada<br>en voz alta.</i></h1>
+ <div class="sub">Se lo dices al Asistente, te enseña la cita y solo la guarda cuando pulsas Confirmar.</div>
+</div>
+<div class="foot"><span>Agenda · ComunIA</span><span>@comunia.cat</span></div>
+</body></html>
