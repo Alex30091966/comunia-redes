@@ -243,6 +243,36 @@
     ],
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-6108504821625892943"
    }
+  },
+  {
+   "fecha": "2026-11-03",
+   "tipo": "post",
+   "tema": "agenda",
+   "angulo": "mito vs. realidad",
+   "colores": "celeste/fucsia",
+   "gancho": "Mito: la agenda del administrador va a boli y en papel.",
+   "archivos": {
+    "imagen": "posts/2026-11-03_agenda.png",
+    "html": "posts/2026-11-03_agenda.html"
+   },
+   "sha256": [
+    "f23e766751b97dca6c438f2f4ec308b65667120fac63c1d96f30a29efbf056a9"
+   ],
+   "pexels_ids": [
+    29509484
+   ],
+   "aprobado": false,
+   "metricool": {
+    "id": 414303955,
+    "uuid": "5910814474161965302",
+    "programado": "2026-11-03T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=5910814474161965302"
+   }
   }
  ]
 }
