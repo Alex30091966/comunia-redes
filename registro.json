@@ -243,6 +243,24 @@
     ],
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-6108504821625892943"
    }
+  },
+  {
+   "fecha": "2026-11-04",
+   "tipo": "post",
+   "tema": "obligaciones",
+   "angulo": "error común",
+   "colores": "ambar/rojo-coral",
+   "gancho": "Que no se te pase ni una obligación de la comunidad.",
+   "archivos": {
+    "imagen": "posts/2026-11-04_obligaciones.png"
+   },
+   "sha256": [
+    "0d39ab593d6d72f8f285a227d55edaeec98ec4b89c00400397643aacea50bcc4"
+   ],
+   "pexels_ids": [
+    16798886
+   ],
+   "aprobado": false
   }
  ]
 }
