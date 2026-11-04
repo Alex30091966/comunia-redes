@@ -272,6 +272,24 @@
     "draft": true,
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=4266893612077040365"
    }
+  },
+  {
+   "fecha": "2026-11-05",
+   "tipo": "post",
+   "tema": "buscador de vecinos",
+   "angulo": "problema → solución",
+   "colores": "azul/lavanda",
+   "gancho": "¿De quién es este teléfono? Lo sabes ya.",
+   "archivos": {
+    "imagen": "posts/2026-11-05_buscador.png"
+   },
+   "sha256": [
+    "19d73b3c23ab9a14cb8e3eb2c4e5584976a578c1ddd3465c04813236dab842b3"
+   ],
+   "pexels_ids": [
+    37977979
+   ],
+   "aprobado": false
   }
  ]
 }
