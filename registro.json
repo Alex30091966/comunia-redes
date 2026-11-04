@@ -289,7 +289,18 @@
    "pexels_ids": [
     37977979
    ],
-   "aprobado": false
+   "aprobado": false,
+   "metricool": {
+    "id": 416797290,
+    "uuid": "-1337767109649741568",
+    "programado": "2026-11-05T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-1337767109649741568"
+   }
   }
  ]
 }
