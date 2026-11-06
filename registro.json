@@ -330,6 +330,35 @@
         "draft": true,
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-4108297121272476340"
       }
+    },
+    {
+      "fecha": "2026-11-07",
+      "tipo": "post",
+      "tema": "resumen diario por email",
+      "angulo": "antes/después",
+      "colores": "melocoton/purpura",
+      "gancho": "¿Empiezas el día sin saber qué te espera?",
+      "archivos": {
+        "imagen": "posts/2026-11-07_resumen_email.png"
+      },
+      "pexels_ids": [
+        3850252
+      ],
+      "sha256": [
+        "effc58ac8d5591978e96387fc9242061b92dd171eb84ea4a70da1e96b1062d46"
+      ],
+      "aprobado": false,
+      "metricool": {
+        "id": 419356219,
+        "uuid": "-330140929321644185",
+        "programado": "2026-11-07T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-330140929321644185"
+      }
     }
   ]
 }
