@@ -19,15 +19,24 @@
    "dur": 5.0,
    "media": "media/38080184.mp4",
    "kicker": "Averías",
-   "titulo": "Se *avisan / solas.*",
+   "titulo": "Por *colores,* / de un vistazo.",
    "ui": {
-    "tipo": "flujo",
-    "nodos": [
-     "Vecino",
-     "Agente IA",
-     "Empresa"
-    ],
-    "llamada": "Avisando a la empresa…"
+    "tipo": "estados",
+    "titulo": "Averías",
+    "filas": [
+     {
+      "texto": "Agua en el garaje",
+      "estado": "rojo"
+     },
+     {
+      "texto": "Ascensor parado",
+      "estado": "ambar"
+     },
+     {
+      "texto": "Luz del portal",
+      "estado": "verde"
+     }
+    ]
    }
   },
   {

@@ -422,3 +422,67 @@ REELS = [
   "portada": {"kicker": "EN 30 SEGUNDOS", "lineas": ["Qué hace", "*ComunIA*"]},
   "caption": "Cerramos noviembre. ¿Qué hace ComunIA por tu despacho, en 30 segundos? ⏱️\n\nAverías que se avisan solas.\nRecibos, morosos y certificados con un clic.\nAsambleas con votos y actas sin papeles.\nY un Asistente que te responde.\n\nDiciembre, con menos papeleo. Escríbenos a comunia@comunia.cat\n\n#administradordefincas #comunidaddevecinos #ComunIA #proptech #gestiondefincas\n🎥 Pexels"},
 ]
+
+
+# --- 8-nov: sin WhatsApp/teléfono ni agente que llama (canal vecinal aún en piloto). Mismo metraje, otros textos. ---
+def _parche(fecha, escenas=None, **kw):
+    R = next(r for r in REELS if r["fecha"] == fecha)
+    R.update(kw)
+    for i, cambios in (escenas or {}).items():
+        R["escenas"][i].update(cambios)
+
+HT = "#administradordefincas #comunidaddevecinos #ComunIA #proptech "
+
+_parche("2026-11-17", {
+    1: {"kicker": "Primero", "titulo": "¿Quién lleva / *el ascensor?*",
+        "ui": {"tipo": "busqueda", "consulta": "ascens", "nombre": "Ascensores de la finca", "detalle": "Proveedores · oficio y teléfono", "estado": "verde"}},
+    2: {"kicker": "Después", "titulo": "Avisas a la / *empresa del / ascensor.*",
+        "ui": {"tipo": "pasos", "pasos": ["Rojo · sin gestionar", "Amarillo · empresa avisada", "Verde · resuelta"]}},
+  },
+  caption="Ascensor parado en la comunidad. Así lo sigues en ComunIA, paso a paso 🛗\n\nLa avería aparece en rojo en tu panel.\nEn Proveedores tienes la empresa del ascensor con su teléfono.\nAmarillo: empresa avisada. Verde: resuelta.\n\n¿Cuántas averías de ascensor gestionas al mes?\n\n" + HT + "#ascensores\n🎥 Pexels")
+
+_parche("2026-11-23", {
+    1: {"kicker": "¿A quién llamo?", "titulo": "Tu lista / *ya lo sabe.*"},
+    2: {"kicker": "Por oficio", "titulo": "Buscas el oficio / *y tienes / el teléfono.*",
+        "ui": {"tipo": "busqueda", "consulta": "electric", "nombre": "Electricista de la finca", "detalle": "Oficio: electricista · teléfono guardado", "estado": "verde"}},
+  },
+  caption="Se va la luz de la escalera. ¿A quién llamas? En ComunIA lo tienes a mano 💡\n\nDas de alta a tus proveedores una vez, con su oficio y teléfono.\nCuando hay una avería, sabes al momento a quién toca.\nY en el panel la ves por colores: rojo, amarillo, verde.\n\n¿Cuántos proveedores llevas en la cabeza ahora mismo?\n\n" + HT + "#proveedores\n🎥 Pexels")
+
+_parche("2026-11-26", {
+    0: {"kicker": "Antes de empezar", "titulo": "Antes de / *la primera / llamada…*",
+        "ui": {"tipo": "tachado", "antes": "Abrir cinco programas", "despues": "Leer un email"}},
+    1: {"kicker": "Cada día", "titulo": "Tu *resumen* / en el correo.",
+        "ui": {"tipo": "email", "de": "ComunIA", "asunto": "Tu resumen diario", "lineas": ["Averías pendientes", "Vecinos", "Comunidades"]}},
+    2: {"kicker": "De un vistazo", "titulo": "Lo *pendiente,* / primero.",
+        "ui": {"tipo": "estados", "titulo": "Averías pendientes", "filas": [{"texto": "Agua en el garaje", "estado": "rojo"}, {"texto": "Puerta del garaje", "estado": "ambar"}]}},
+    3: {"kicker": "Si hay que avisar", "titulo": "El fontanero, / *a mano.*",
+        "ui": {"tipo": "busqueda", "consulta": "fonta", "nombre": "Fontanero de la finca", "detalle": "Proveedores · oficio y teléfono", "estado": "verde"}},
+    4: {"kicker": "Dónde", "titulo": "Mi cuenta → / *resumen diario.*",
+        "ui": {"tipo": "pasos", "pasos": ["Mi cuenta", "Resumen diario por email", "Activado"]}},
+    5: {"outro": {"tagline": "Empieza el día sabiendo qué hay.", "cta": "Síguenos · @comunia.cat"}},
+  },
+  tema="resumen_diario_email", angulo="rutina de la mañana",
+  portada={"kicker": "CADA DÍA", "lineas": ["Tu resumen", "*en el correo*"]},
+  caption="¿Empiezas el día abriendo cinco programas para saber qué hay pendiente? ☕\n\nEn ComunIA puedes recibir un resumen diario por email.\nLo activas en Mi cuenta y sabes por dónde empezar.\nY si hay una avería, en Proveedores tienes a quién avisar.\n\n¿Qué es lo primero que miras cada mañana?\n\n" + HT + "#productividad\n🎥 Pexels")
+
+_parche("2026-11-28", {
+    1: {"kicker": "Piscina", "titulo": "Pierde agua / *la piscina.*",
+        "ui": {"tipo": "ficha", "nombre": "Mallorca 214", "direccion": "Comunidad de propietarios", "pestanas": ["Datos", "Edificio", "Seguro", "Documentos"],
+               "filas": [{"k": "Piscina", "v": "Comunitaria"}, {"k": "Garaje", "v": "Puerta automática"}, {"k": "Portal", "v": "1"}]}},
+    3: {"kicker": "Portal", "titulo": "La luz / *del portal.*",
+        "ui": {"tipo": "lista", "titulo": "Proveedores · Mallorca 214", "items": ["Piscinas", "Puertas de garaje", "Electricista"]}},
+  },
+  caption="Piscina, garaje, portal… cada zona común tiene su avería y su empresa 🏊\n\nEn Proveedores guardas cada empresa con su oficio y teléfono.\nAsí, cuando algo falla, sabes al momento a quién toca.\nY lo ves todo en una lista: rojo sin gestionar, amarillo avisada, verde resuelta.\n\n¿Qué zona común te da más guerra?\n\n" + HT + "#zonascomunes\n🎥 Pexels")
+
+_parche("2026-11-29", {
+    2: {"kicker": "Mito 2", "titulo": "«Tendré que / *aprender / a usarla.»*",
+        "ui": {"tipo": "tachado", "antes": "Manuales y cursos", "despues": "Le escribes o le hablas"}},
+    4: {"ui": {"tipo": "lista", "items": ["Tú confirmas", "Le hablas y te responde", "Tus datos, de golpe"]}},
+  },
+  caption="3 mitos sobre usar IA en un despacho de administración de fincas 👇\n\n1. «Hace cosas sola»: no, siempre espera a tu Confirmar.\n2. «Tendré que aprender a usarla»: al Asistente le escribes o le hablas, y te lleva a la pantalla.\n3. «Meter los datos es un mundo»: comunidades y propietarios desde Excel, de golpe.\n\n¿Cuál era el tuyo? Dínoslo en comentarios.\n\n" + HT + "#inteligenciaartificial\n🎥 Pexels")
+
+_parche("2026-11-30", {
+    1: {"kicker": "Averías", "titulo": "Por *colores,* / de un vistazo.",
+        "ui": {"tipo": "estados", "titulo": "Averías", "filas": [{"texto": "Agua en el garaje", "estado": "rojo"}, {"texto": "Ascensor parado", "estado": "ambar"}, {"texto": "Luz del portal", "estado": "verde"}]}},
+  },
+  caption="Cerramos noviembre. ¿Qué hace ComunIA por tu despacho, en 30 segundos? ⏱️\n\nAverías por colores, de un vistazo.\nRecibos, morosos y certificados con un clic.\nAsambleas con votos y actas sin papeles.\nY un Asistente que te responde.\n\nDiciembre, con menos papeleo. Escríbenos a comunia@comunia.cat\n\n" + HT + "#gestiondefincas\n🎥 Pexels")

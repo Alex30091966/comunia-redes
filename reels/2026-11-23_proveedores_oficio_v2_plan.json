@@ -20,7 +20,7 @@
    "dur": 4.8,
    "media": "media/8853515.mp4",
    "kicker": "¿A quién llamo?",
-   "titulo": "El agente / *ya lo sabe.*",
+   "titulo": "Tu lista / *ya lo sabe.*",
    "ui": {
     "tipo": "pasos",
     "pasos": [
@@ -34,15 +34,13 @@
    "dur": 5.0,
    "media": "media/8853488.mp4",
    "kicker": "Por oficio",
-   "titulo": "Busca el oficio / *y llama.*",
+   "titulo": "Buscas el oficio / *y tienes / el teléfono.*",
    "ui": {
-    "tipo": "flujo",
-    "nodos": [
-     "Vecino",
-     "Agente IA",
-     "Electricista"
-    ],
-    "llamada": "Llamando al electricista…"
+    "tipo": "busqueda",
+    "consulta": "electric",
+    "nombre": "Electricista de la finca",
+    "detalle": "Oficio: electricista · teléfono guardado",
+    "estado": "verde"
    }
   },
   {

@@ -32,11 +32,11 @@
    "dur": 4.6,
    "media": "media/10573427.mp4",
    "kicker": "Mito 2",
-   "titulo": "«Mis vecinos / *no la / usarán.»*",
+   "titulo": "«Tendré que / *aprender / a usarla.»*",
    "ui": {
     "tipo": "tachado",
-    "antes": "Solo si usan apps",
-    "despues": "Por WhatsApp o teléfono"
+    "antes": "Manuales y cursos",
+    "despues": "Le escribes o le hablas"
    }
   },
   {
@@ -63,7 +63,7 @@
     "tipo": "lista",
     "items": [
      "Tú confirmas",
-     "El vecino avisa como quiera",
+     "Le hablas y te responde",
      "Tus datos, de golpe"
     ]
    }

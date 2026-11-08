@@ -20,32 +20,28 @@
   {
    "dur": 6.0,
    "media": "media/6875327.mp4",
-   "kicker": "Una vecina llama",
-   "titulo": "Contesta / *el agente.*",
+   "kicker": "Primero",
+   "titulo": "¿Quién lleva / *el ascensor?*",
    "ui": {
-    "tipo": "llamada",
-    "quien": "Vecina · 4º 1ª",
-    "frases": [
-     "El ascensor no funciona",
-     "¿Hay alguien dentro?",
-     "No, está parado en el 2º",
-     "Apuntado. Aviso a la empresa."
-    ]
+    "tipo": "busqueda",
+    "consulta": "ascens",
+    "nombre": "Ascensores de la finca",
+    "detalle": "Proveedores · oficio y teléfono",
+    "estado": "verde"
    }
   },
   {
    "dur": 5.0,
    "media": "media/35578331.mp4",
    "kicker": "Después",
-   "titulo": "Avisa a la / *empresa del / ascensor.*",
+   "titulo": "Avisas a la / *empresa del / ascensor.*",
    "ui": {
-    "tipo": "flujo",
-    "nodos": [
-     "Vecina",
-     "Agente IA",
-     "Ascensores"
-    ],
-    "llamada": "Llamando a ascensores…"
+    "tipo": "pasos",
+    "pasos": [
+     "Rojo · sin gestionar",
+     "Amarillo · empresa avisada",
+     "Verde · resuelta"
+    ]
    }
   },
   {

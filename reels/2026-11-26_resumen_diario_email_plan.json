@@ -1,0 +1,96 @@
+{
+ "estilo": "claro",
+ "acento": "#C2255C",
+ "acento2": "#E64980",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/7058606.mp4",
+   "kicker": "Antes de empezar",
+   "titulo": "Antes de / *la primera / llamada…*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Abrir cinco programas",
+    "despues": "Leer un email"
+   }
+  },
+  {
+   "dur": 6.0,
+   "media": "media/8528734.mp4",
+   "kicker": "Cada día",
+   "titulo": "Tu *resumen* / en el correo.",
+   "ui": {
+    "tipo": "email",
+    "de": "ComunIA",
+    "asunto": "Tu resumen diario",
+    "lineas": [
+     "Averías pendientes",
+     "Vecinos",
+     "Comunidades"
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/28997045.mp4",
+   "kicker": "De un vistazo",
+   "titulo": "Lo *pendiente,* / primero.",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Averías pendientes",
+    "filas": [
+     {
+      "texto": "Agua en el garaje",
+      "estado": "rojo"
+     },
+     {
+      "texto": "Puerta del garaje",
+      "estado": "ambar"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/8987298.mp4",
+   "kicker": "Si hay que avisar",
+   "titulo": "El fontanero, / *a mano.*",
+   "ui": {
+    "tipo": "busqueda",
+    "consulta": "fonta",
+    "nombre": "Fontanero de la finca",
+    "detalle": "Proveedores · oficio y teléfono",
+    "estado": "verde"
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/8078911.mp4",
+   "kicker": "Dónde",
+   "titulo": "Mi cuenta → / *resumen diario.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Mi cuenta",
+     "Resumen diario por email",
+     "Activado"
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Empieza el día sabiendo qué hay.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "CADA DÍA",
+  "lineas": [
+   "Tu resumen",
+   "*en el correo*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

@@ -22,23 +22,27 @@
    "kicker": "Piscina",
    "titulo": "Pierde agua / *la piscina.*",
    "ui": {
-    "tipo": "chat",
-    "mensajes": [
+    "tipo": "ficha",
+    "nombre": "Mallorca 214",
+    "direccion": "Comunidad de propietarios",
+    "pestanas": [
+     "Datos",
+     "Edificio",
+     "Seguro",
+     "Documentos"
+    ],
+    "filas": [
      {
-      "de": "vecino",
-      "texto": "La piscina pierde agua 💦"
+      "k": "Piscina",
+      "v": "Comunitaria"
      },
      {
-      "de": "agente",
-      "texto": "¿Se ve por dónde sale?"
+      "k": "Garaje",
+      "v": "Puerta automática"
      },
      {
-      "de": "vecino",
-      "texto": "Junto a la depuradora"
-     },
-     {
-      "de": "agente",
-      "texto": "Apuntado. Aviso a la empresa que toca."
+      "k": "Portal",
+      "v": "1"
      }
     ]
    }
@@ -61,13 +65,13 @@
    "kicker": "Portal",
    "titulo": "La luz / *del portal.*",
    "ui": {
-    "tipo": "flujo",
-    "nodos": [
-     "Vecino",
-     "Agente IA",
+    "tipo": "lista",
+    "titulo": "Proveedores · Mallorca 214",
+    "items": [
+     "Piscinas",
+     "Puertas de garaje",
      "Electricista"
-    ],
-    "llamada": "Llamando al electricista…"
+    ]
    }
   },
   {
