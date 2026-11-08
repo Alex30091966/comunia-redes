@@ -376,16 +376,16 @@
       "sha256": [
         "fa9470ad53af705cf6e498b2e14010375e1238efca67f2d9269624137b8a494f"
       ],
-      "aprobado": false,
+      "aprobado": true,
       "metricool": {
-        "id": 420114358,
+        "id": 420630368,
         "uuid": "2000004577974174856",
         "programado": "2026-11-08T18:00 Europe/Madrid",
         "redes": [
           "instagram",
           "facebook"
         ],
-        "draft": true,
+        "draft": false,
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=2000004577974174856"
       }
     }
