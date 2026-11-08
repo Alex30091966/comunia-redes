@@ -1,0 +1,112 @@
+{
+ "estilo": "cine",
+ "acento": "#FF5A5F",
+ "acento2": "#FF9F43",
+ "tinte": "rgba(0,110,140,0.45)",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/8551815.mp4",
+   "kicker": "¿Sabías que…?",
+   "titulo": "Tu comunidad / tiene *fechas / que no esperan.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "rojo",
+    "titulo": "Obligación vencida",
+    "texto": "Revisión del ascensor"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/36167829.mp4",
+   "kicker": "El semáforo",
+   "titulo": "Cada obligación, / *con su color.*",
+   "ui": {
+    "tipo": "semaforo",
+    "filas": [
+     {
+      "texto": "Seguro del edificio",
+      "estado": "verde",
+      "cuando": "Al día"
+     },
+     {
+      "texto": "Revisión del ascensor",
+      "estado": "ambar",
+      "cuando": "Se acerca"
+     },
+     {
+      "texto": "Inspección eléctrica",
+      "estado": "rojo",
+      "cuando": "Vencida"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/8987299.mp4",
+   "kicker": "Amarillo",
+   "titulo": "Se acerca. / *Te da tiempo.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "ambar",
+    "titulo": "Se acerca",
+    "texto": "Revisión del ascensor"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/36010285.mp4",
+   "kicker": "Rojo",
+   "titulo": "Vencida. / *Imposible / no verla.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Enterarte tarde",
+    "despues": "La ves en rojo"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/6221103.mp4",
+   "kicker": "En la ficha",
+   "titulo": "Comunidad a / comunidad, / *de un vistazo.*",
+   "ui": {
+    "tipo": "ficha",
+    "nombre": "C/ Sants 12",
+    "direccion": "Barcelona",
+    "pestanas": [
+     "Datos",
+     "Edificio",
+     "Seguro",
+     "Documentos"
+    ],
+    "filas": [
+     {
+      "k": "Obligaciones",
+      "v": "Con semáforo"
+     },
+     {
+      "k": "Seguro",
+      "v": "En su pestaña"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Las fechas, bajo control.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "¿SABÍAS QUE…?",
+  "lineas": [
+   "Verde",
+   "amarillo",
+   "*rojo*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

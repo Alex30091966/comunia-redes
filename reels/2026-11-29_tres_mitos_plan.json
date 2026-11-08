@@ -1,0 +1,87 @@
+{
+ "estilo": "editorial",
+ "acento": "#FF8FA3",
+ "acento2": "#FFC2D1",
+ "tinte": "rgba(120,0,40,0.10)",
+ "tamTitulo": 92,
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/7953577.mp4",
+   "kicker": "3 mitos",
+   "titulo": "3 mitos de / *la IA en tu / despacho.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "ambar",
+    "titulo": "Mito o realidad",
+    "texto": "Desmontamos 3"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/35065080.mp4",
+   "kicker": "Mito 1",
+   "titulo": "«Hace / cosas / *sola.»*",
+   "ui": {
+    "tipo": "mito",
+    "mito": "La IA cambia cosas sin preguntar",
+    "realidad": "Espera siempre a tu Confirmar"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/10573427.mp4",
+   "kicker": "Mito 2",
+   "titulo": "«Mis vecinos / *no la / usarán.»*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Solo si usan apps",
+    "despues": "Por WhatsApp o teléfono"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/4752623.mp4",
+   "kicker": "Mito 3",
+   "titulo": "«Meter / los datos / *es un / mundo.»*",
+   "ui": {
+    "tipo": "excel",
+    "archivo": "comunidades.xlsx",
+    "filas": [
+     "Comunidades",
+     "Propietarios"
+    ],
+    "total": "Importado de golpe"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/27682746.mp4",
+   "kicker": "Conclusión",
+   "titulo": "Menos miedo, / *más tiempo.*",
+   "ui": {
+    "tipo": "lista",
+    "items": [
+     "Tú confirmas",
+     "El vecino avisa como quiera",
+     "Tus datos, de golpe"
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Menos miedo, más tiempo.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "MITO O REALIDAD",
+  "lineas": [
+   "3 mitos",
+   "*de la IA*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

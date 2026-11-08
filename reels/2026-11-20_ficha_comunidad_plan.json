@@ -1,0 +1,112 @@
+{
+ "estilo": "cine",
+ "acento": "#C4B5FD",
+ "acento2": "#7DD3FC",
+ "tinte": "rgba(60,40,140,0.40)",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/8232811.mp4",
+   "kicker": "Tour",
+   "titulo": "Una comunidad. / *Todo en / una ficha.*",
+   "ui": {
+    "tipo": "ficha",
+    "nombre": "C/ Mallorca 214",
+    "direccion": "Barcelona",
+    "pestanas": [
+     "Datos",
+     "Edificio",
+     "Seguro",
+     "Documentos"
+    ],
+    "filas": [
+     {
+      "k": "Nombre",
+      "v": "C/ Mallorca 214"
+     },
+     {
+      "k": "Dirección",
+      "v": "Barcelona"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/7821618.mp4",
+   "kicker": "Seguro",
+   "titulo": "La póliza, / *siempre a mano.*",
+   "ui": {
+    "tipo": "documento",
+    "titulo": "Póliza del edificio",
+    "lineas": [
+     "Pestaña Seguro",
+     "Siempre en la ficha"
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/34993441.mp4",
+   "kicker": "Documentos",
+   "titulo": "Actas, facturas, / *todo guardado.*",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Documentos",
+    "items": [
+     "Acta de la asamblea.pdf",
+     "Factura del ascensor.pdf",
+     "Póliza.pdf"
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/8853530.mp4",
+   "kicker": "Obligaciones",
+   "titulo": "Y su *semáforo.*",
+   "ui": {
+    "tipo": "semaforo",
+    "filas": [
+     {
+      "texto": "Seguro del edificio",
+      "estado": "verde",
+      "cuando": "Al día"
+     },
+     {
+      "texto": "Revisión eléctrica",
+      "estado": "ambar",
+      "cuando": "Se acerca"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/6182060.mp4",
+   "kicker": "Sin buscar",
+   "titulo": "Nada en / *carpetas / perdidas.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Buscar en carpetas",
+    "despues": "Abrir la ficha"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Cada finca, en su sitio.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "TOUR",
+  "lineas": [
+   "Toda",
+   "la finca",
+   "*en una ficha*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

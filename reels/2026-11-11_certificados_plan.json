@@ -1,0 +1,94 @@
+{
+ "estilo": "partido",
+ "acento": "#2DD4BF",
+ "acento2": "#A3E635",
+ "tinte": "rgba(0,80,80,0.15)",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/8814707.mp4",
+   "kicker": "Pregunta rápida",
+   "titulo": "¿Cuánto tardas / en un *certificado / de deuda?*",
+   "ui": {
+    "tipo": "toast",
+    "color": "ambar",
+    "titulo": "Piden un certificado",
+    "texto": "Para la venta del piso"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/6782251.mp4",
+   "kicker": "Lo de siempre",
+   "titulo": "Buscar recibos, / *redactar, / revisar…*",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Tu tarde",
+    "items": [
+     "Buscar los recibos",
+     "Redactar el texto",
+     "Revisarlo y enviarlo"
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/7652957.mp4",
+   "kicker": "Con ComunIA",
+   "titulo": "Abres el vecino / y *un clic.*",
+   "ui": {
+    "tipo": "busqueda",
+    "consulta": "Marta Puig",
+    "nombre": "Marta Puig · 2º 1ª",
+    "detalle": "Recibos pendientes",
+    "estado": "rojo"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/34812223.mp4",
+   "kicker": "En PDF",
+   "titulo": "Certificado / *de deuda* / al momento.",
+   "ui": {
+    "tipo": "documento",
+    "titulo": "Certificado de deuda",
+    "lineas": [
+     "Comunidad C/ Aragó 87",
+     "Propietaria: Marta Puig",
+     "Recibos pendientes detallados"
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/7986204.mp4",
+   "kicker": "Y al revés",
+   "titulo": "¿Está al día? / *Certificado al / corriente.*",
+   "ui": {
+    "tipo": "documento",
+    "titulo": "Certificado al corriente",
+    "lineas": [
+     "Propietario: Joan Ferrer",
+     "Sin recibos pendientes"
+    ],
+    "sello": "Al corriente"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Papeleo de días, en un clic.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "CERTIFICADOS",
+  "lineas": [
+   "Deuda",
+   "o al día",
+   "*en 1 clic*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

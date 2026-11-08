@@ -1,0 +1,123 @@
+{
+ "estilo": "partido",
+ "acento": "#60A5FA",
+ "acento2": "#E879F9",
+ "tinte": "rgba(30,50,140,0.14)",
+ "escenas": [
+  {
+   "dur": 4.4,
+   "media": "media/9460217.mp4",
+   "kicker": "Memoria",
+   "titulo": "4 cosas que / *ya no tienes / que recordar.*",
+   "ui": {
+    "tipo": "lista",
+    "items": [
+     "Obligaciones",
+     "Recibos pendientes",
+     "Citas",
+     "Averías"
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/6961769.mp4",
+   "kicker": "1 · Obligaciones",
+   "titulo": "El *semáforo* / te avisa.",
+   "ui": {
+    "tipo": "semaforo",
+    "filas": [
+     {
+      "texto": "Revisión del ascensor",
+      "estado": "ambar",
+      "cuando": "Se acerca"
+     },
+     {
+      "texto": "Seguro del edificio",
+      "estado": "verde",
+      "cuando": "Al día"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/34828883.mp4",
+   "kicker": "2 · Recibos",
+   "titulo": "Morosos arriba, / *con su aviso.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Morosos",
+    "filas": [
+     {
+      "texto": "Marta Puig",
+      "estado": "rojo",
+      "etiqueta": "Primer aviso"
+     },
+     {
+      "texto": "Pere Vidal",
+      "estado": "rojo",
+      "etiqueta": "Recordatorio"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/7701957.mp4",
+   "kicker": "3 · Citas",
+   "titulo": "Todo en / *la Agenda.*",
+   "ui": {
+    "tipo": "calendario",
+    "dia": "Viernes",
+    "eventos": [
+     {
+      "hora": "09:30",
+      "texto": "Visita técnica · Mallorca 214"
+     },
+     {
+      "hora": "17:00",
+      "texto": "Junta · Aragó 87"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/39917236.mp4",
+   "kicker": "4 · Averías",
+   "titulo": "*Rojo, amarillo, / verde.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Averías",
+    "filas": [
+     {
+      "texto": "Gotera en el rellano",
+      "estado": "rojo",
+      "animar": true
+     },
+     {
+      "texto": "Puerta del garaje",
+      "estado": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Tu cabeza, libre.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "MEMORIA",
+  "lineas": [
+   "4 cosas",
+   "*que ya no",
+   "recuerdas*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

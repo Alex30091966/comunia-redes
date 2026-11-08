@@ -1,0 +1,106 @@
+{
+ "estilo": "claro",
+ "acento": "#2F5BEA",
+ "acento2": "#7048E8",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/35259457.mp4",
+   "kicker": "En 30 segundos",
+   "titulo": "Qué hace / *ComunIA* / por ti.",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Panel ComunIA",
+    "texto": "Tus comunidades, con IA"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/38080184.mp4",
+   "kicker": "Averías",
+   "titulo": "Se *avisan / solas.*",
+   "ui": {
+    "tipo": "flujo",
+    "nodos": [
+     "Vecino",
+     "Agente IA",
+     "Empresa"
+    ],
+    "llamada": "Avisando a la empresa…"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/38149024.mp4",
+   "kicker": "Vecinos",
+   "titulo": "Recibos y / *certificados* / en un clic.",
+   "ui": {
+    "tipo": "documento",
+    "titulo": "Certificado al corriente",
+    "lineas": [
+     "En PDF",
+     "Con un clic"
+    ],
+    "sello": "Al corriente"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/8717541.mp4",
+   "kicker": "Asambleas",
+   "titulo": "Votos y actas, / *sin papeles.*",
+   "ui": {
+    "tipo": "votacion",
+    "pregunta": "Renovar el seguro",
+    "opciones": [
+     {
+      "texto": "Sí",
+      "pct": 81
+     },
+     {
+      "texto": "No",
+      "pct": 19
+     }
+    ],
+    "mayoria": 50,
+    "resultado": "Aprobado"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/6962182.mp4",
+   "kicker": "Asistente",
+   "titulo": "Le hablas, / *te responde.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "¿Qué tengo pendiente hoy?"
+     },
+     {
+      "de": "agente",
+      "texto": "Te llevo al Resumen: averías, vecinos y comunidades."
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Diciembre, con menos papeleo.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "EN 30 SEGUNDOS",
+  "lineas": [
+   "Qué hace",
+   "*ComunIA*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

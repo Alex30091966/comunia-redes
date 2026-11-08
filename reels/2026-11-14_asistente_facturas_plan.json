@@ -1,0 +1,98 @@
+{
+ "estilo": "claro",
+ "acento": "#7048E8",
+ "acento2": "#C2255C",
+ "escenas": [
+  {
+   "dur": 4.6,
+   "media": "media/8926982.mp4",
+   "kicker": "Truco",
+   "titulo": "¿Qué es / *este papel?*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "📎 factura_ascensor.pdf"
+     },
+     {
+      "de": "agente",
+      "texto": "Es una factura del mantenimiento del ascensor."
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/34719410.mp4",
+   "kicker": "Paso 1",
+   "titulo": "Pulsa / *el clip.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Archivo adjunto",
+    "texto": "factura_ascensor.pdf"
+   }
+  },
+  {
+   "dur": 5.4,
+   "media": "media/6931576.mp4",
+   "kicker": "Paso 2",
+   "titulo": "Te dice *qué es* / y *dónde / guardarla.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "agente",
+      "texto": "Es una factura del ascensor. ¿La guardo en Documentos de C/ Mallorca 214?"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/35021894.mp4",
+   "kicker": "Paso 3",
+   "titulo": "Tú *confirmas.* / Y se guarda.",
+   "ui": {
+    "tipo": "confirmar",
+    "peticion": "Sí, guárdala ahí",
+    "accion": "Guardar en Documentos",
+    "detalle": "C/ Mallorca 214 · Documentos"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/7822019.mp4",
+   "kicker": "También pólizas",
+   "titulo": "Con las / *pólizas,* / igual.",
+   "ui": {
+    "tipo": "documento",
+    "titulo": "Póliza del edificio",
+    "lineas": [
+     "Qué es: póliza de la comunidad",
+     "Dónde: pestaña Seguro"
+    ],
+    "sello": "Guardada"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Menos papeles sueltos.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "TRUCO",
+  "lineas": [
+   "¿Qué es",
+   "*este",
+   "papel?*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "estilo": "cine",
+ "acento": "#FB7185",
+ "acento2": "#F43F5E",
+ "tinte": "rgba(140,60,20,0.40)",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/35172277.mp4",
+   "kicker": "Piénsalo",
+   "titulo": "Un recibo / sin cobrar / *es una gotera.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "rojo",
+    "titulo": "Recibo pendiente",
+    "texto": "2º 1ª · Comunidad Sants 12"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/5658850.mp4",
+   "kicker": "Primero, verla",
+   "titulo": "*Verde* al día. / *Rojo* debe.",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Vecinos · Sants 12",
+    "filas": [
+     {
+      "texto": "Joan Ferrer",
+      "estado": "verde",
+      "etiqueta": "Al corriente"
+     },
+     {
+      "texto": "Marta Puig",
+      "estado": "rojo",
+      "etiqueta": "Debe"
+     },
+     {
+      "texto": "Laura Gil",
+      "estado": "verde",
+      "etiqueta": "Al corriente"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/8563625.mp4",
+   "kicker": "Morosos arriba",
+   "titulo": "Con el aviso / *que toca.*",
+   "ui": {
+    "tipo": "semaforo",
+    "titulo": "Morosos",
+    "filas": [
+     {
+      "texto": "Marta Puig",
+      "estado": "rojo",
+      "cuando": "Toca primer aviso"
+     },
+     {
+      "texto": "Pere Vidal",
+      "estado": "ambar",
+      "cuando": "Toca recordatorio"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/30794071.mp4",
+   "kicker": "Un clic",
+   "titulo": "Recordatorio / *enviado.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Recordatorio enviado",
+    "texto": "Marta Puig · Sants 12"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/10574722.mp4",
+   "kicker": "Y se arregla",
+   "titulo": "Pasa a *verde.* / Sin perseguir / a nadie.",
+   "ui": {
+    "tipo": "busqueda",
+    "consulta": "Marta",
+    "nombre": "Marta Puig · 2º 1ª",
+    "detalle": "Al corriente",
+    "estado": "verde"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Cierra la gotera a tiempo.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "MOROSOS",
+  "lineas": [
+   "Cada recibo",
+   "sin cobrar",
+   "*gotea*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "estilo": "editorial",
+ "acento": "#FACC15",
+ "acento2": "#FB923C",
+ "tinte": "rgba(140,90,0,0.10)",
+ "tamTitulo": 92,
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/8084880.mp4",
+   "kicker": "Mito o realidad",
+   "titulo": "¿Gotera / en tu piso? / *No es cosa / de la finca.*",
+   "ui": {
+    "tipo": "mito",
+    "mito": "Toda avería la gestiona la comunidad",
+    "realidad": "Si es dentro de una vivienda, va por su seguro"
+   }
+  },
+  {
+   "dur": 5.8,
+   "media": "media/8045843.mp4",
+   "kicker": "El vecino escribe",
+   "titulo": "Avisa por / *WhatsApp.*",
+   "ui": {
+    "tipo": "chat",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "Gotea el grifo de mi cocina 😩"
+     },
+     {
+      "de": "agente",
+      "texto": "¿Es dentro de tu vivienda?"
+     },
+     {
+      "de": "vecino",
+      "texto": "Sí, en la cocina"
+     },
+     {
+      "de": "agente",
+      "texto": "Entonces llévalo con tu seguro de hogar 👍"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/6322926.mp4",
+   "kicker": "Sin molestar",
+   "titulo": "Ninguna / empresa / *avisada / por error.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Llamar al fontanero de la finca",
+    "despues": "Lo lleva su seguro"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/7735908.mp4",
+   "kicker": "Y tú",
+   "titulo": "Ni una / llamada / *que no / te toca.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Avería en vivienda",
+    "texto": "Al seguro del vecino"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/7464149.mp4",
+   "kicker": "La regla",
+   "titulo": "Zonas / comunes: / *la empresa.*",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Quién se encarga",
+    "items": [
+     "Portal, escalera, garaje → empresa",
+     "Dentro de casa → su seguro"
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Cada avería, a quien le toca.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "MITO O REALIDAD",
+  "lineas": [
+   "Gotera",
+   "*en tu piso*",
+   "¿quién?"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

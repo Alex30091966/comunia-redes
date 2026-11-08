@@ -1,0 +1,109 @@
+{
+ "estilo": "editorial",
+ "acento": "#C6F432",
+ "acento2": "#4ADE80",
+ "tinte": "rgba(40,90,0,0.10)",
+ "tamTitulo": 92,
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/7255750.mp4",
+   "kicker": "Error común",
+   "titulo": "Aprobar / *sin la / mayoría.*",
+   "ui": {
+    "tipo": "votacion",
+    "pregunta": "Cambiar el portero automático",
+    "opciones": [
+     {
+      "texto": "Sí",
+      "pct": 55
+     },
+     {
+      "texto": "No",
+      "pct": 45
+     }
+    ],
+    "mayoria": 60
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/12893523.mp4",
+   "kicker": "La asamblea",
+   "titulo": "Cada punto, / *en el orden / del día.*",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Orden del día",
+    "items": [
+     "Aprobación de cuentas",
+     "Portero automático",
+     "Ruegos y preguntas"
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/7643453.mp4",
+   "kicker": "Votación",
+   "titulo": "Votas y / *ComunIA / calcula.*",
+   "ui": {
+    "tipo": "votacion",
+    "pregunta": "Aprobación de cuentas",
+    "opciones": [
+     {
+      "texto": "Sí",
+      "pct": 72
+     },
+     {
+      "texto": "No",
+      "pct": 28
+     }
+    ],
+    "mayoria": 50
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/6010698.mp4",
+   "kicker": "Si no llega",
+   "titulo": "*Te avisa.* / Sin dudas / después.",
+   "ui": {
+    "tipo": "toast",
+    "color": "ambar",
+    "titulo": "Atención",
+    "texto": "No se alcanza la mayoría"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/7579664.mp4",
+   "kicker": "Al terminar",
+   "titulo": "Acta en PDF, / *sola.*",
+   "ui": {
+    "tipo": "documento",
+    "titulo": "Acta de la asamblea",
+    "lineas": [
+     "Punto 1 · Aprobado",
+     "Punto 2 · No aprobado",
+     "Firmas recogidas"
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Mayorías calculadas, cero dudas.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "ERROR COMÚN",
+  "lineas": [
+   "¿Había",
+   "*mayoría*",
+   "o no?"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

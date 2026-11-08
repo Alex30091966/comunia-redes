@@ -1,0 +1,114 @@
+{
+ "estilo": "cine",
+ "acento": "#38BDF8",
+ "acento2": "#2DD4BF",
+ "tinte": "rgba(0,80,140,0.40)",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/34641785.mp4",
+   "kicker": "Zonas comunes",
+   "titulo": "Piscina, garaje, / portal… / *¿a quién llamas?*",
+   "ui": {
+    "tipo": "toast",
+    "color": "rojo",
+    "titulo": "Fuga en la piscina",
+    "texto": "Comunidad Mallorca 214"
+   }
+  },
+  {
+   "dur": 5.8,
+   "media": "media/37514498.mp4",
+   "kicker": "Piscina",
+   "titulo": "Pierde agua / *la piscina.*",
+   "ui": {
+    "tipo": "chat",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "La piscina pierde agua 💦"
+     },
+     {
+      "de": "agente",
+      "texto": "¿Se ve por dónde sale?"
+     },
+     {
+      "de": "vecino",
+      "texto": "Junto a la depuradora"
+     },
+     {
+      "de": "agente",
+      "texto": "Apuntado. Aviso a la empresa que toca."
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/7578791.mp4",
+   "kicker": "Garaje",
+   "titulo": "La puerta / *del garaje.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "ambar",
+    "titulo": "Empresa avisada",
+    "texto": "Puerta del garaje"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/9196607.mp4",
+   "kicker": "Portal",
+   "titulo": "La luz / *del portal.*",
+   "ui": {
+    "tipo": "flujo",
+    "nodos": [
+     "Vecino",
+     "Agente IA",
+     "Electricista"
+    ],
+    "llamada": "Llamando al electricista…"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/38787696.mp4",
+   "kicker": "Tú",
+   "titulo": "Todo en / *una lista / de colores.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Averías · Mallorca 214",
+    "filas": [
+     {
+      "texto": "Luz del portal",
+      "estado": "rojo",
+      "animar": true
+     },
+     {
+      "texto": "Fuga en la piscina",
+      "estado": "ambar"
+     },
+     {
+      "texto": "Puerta del garaje",
+      "estado": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Cada zona, su empresa.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "ZONAS COMUNES",
+  "lineas": [
+   "¿A quién",
+   "*llamas?*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

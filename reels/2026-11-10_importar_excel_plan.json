@@ -1,0 +1,103 @@
+{
+ "estilo": "claro",
+ "acento": "#0F9D74",
+ "acento2": "#14B8A6",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/6931111.mp4",
+   "kicker": "Primer día",
+   "titulo": "Todos tus / vecinos, / *de golpe.*",
+   "ui": {
+    "tipo": "excel",
+    "archivo": "propietarios.xlsx",
+    "filas": [
+     "Comunidad C/ Mallorca 214",
+     "Comunidad C/ Aragó 87",
+     "Comunidad C/ Sants 12"
+    ],
+    "total": "Comunidades y propietarios importados"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/12692035.mp4",
+   "kicker": "Antes",
+   "titulo": "Copiar y pegar / *vecino a vecino.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Teclear cada propietario",
+    "despues": "Subir el Excel"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/11025439.mp4",
+   "kicker": "Ahora",
+   "titulo": "Subes el Excel / y *listo.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Eliges el archivo",
+     "ComunIA lo lee",
+     "Cada uno a su ficha"
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/39300071.mp4",
+   "kicker": "¿Una nueva?",
+   "titulo": "Alta con / *nombre y / dirección.*",
+   "ui": {
+    "tipo": "ficha",
+    "nombre": "C/ Mallorca 214",
+    "direccion": "Barcelona",
+    "pestanas": [
+     "Datos",
+     "Edificio",
+     "Seguro",
+     "Documentos"
+    ],
+    "filas": [
+     {
+      "k": "Propietarios",
+      "v": "Importados"
+     },
+     {
+      "k": "Documentos",
+      "v": "En su pestaña"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/9130469.mp4",
+   "kicker": "Resultado",
+   "titulo": "Empiezas hoy, / *no el mes / que viene.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Importación completada",
+    "texto": "Comunidades y propietarios"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Tu cartera, dentro en un momento.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "DEL EXCEL AL PANEL",
+  "lineas": [
+   "Todos",
+   "tus vecinos",
+   "*de golpe*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

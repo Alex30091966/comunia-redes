@@ -1,0 +1,99 @@
+{
+ "estilo": "partido",
+ "acento": "#FACC15",
+ "acento2": "#F97316",
+ "tinte": "rgba(120,80,0,0.12)",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/6996804.mp4",
+   "kicker": "Escalera B",
+   "titulo": "Se va la luz / *de la escalera.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "rojo",
+    "titulo": "Nueva avería",
+    "texto": "Luz escalera B · Sants 12"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/8853515.mp4",
+   "kicker": "¿A quién llamo?",
+   "titulo": "El agente / *ya lo sabe.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Fontanero · agua",
+     "Electricista · luz",
+     "Ascensores · ascensor"
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/8853488.mp4",
+   "kicker": "Por oficio",
+   "titulo": "Busca el oficio / *y llama.*",
+   "ui": {
+    "tipo": "flujo",
+    "nodos": [
+     "Vecino",
+     "Agente IA",
+     "Electricista"
+    ],
+    "llamada": "Llamando al electricista…"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/7706612.mp4",
+   "kicker": "Tu parte",
+   "titulo": "Darlo de alta / *una vez.*",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Nuevo proveedor",
+    "items": [
+     "Nombre",
+     "Oficio: electricista",
+     "Teléfono"
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/8103869.mp4",
+   "kicker": "En el panel",
+   "titulo": "*Amarillo:* / empresa / avisada.",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Averías · Sants 12",
+    "filas": [
+     {
+      "texto": "Luz escalera B",
+      "estado": "ambar"
+     },
+     {
+      "texto": "Grifo del patio",
+      "estado": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Cada avería, a su profesional.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "PROVEEDORES",
+  "lineas": [
+   "¿A quién",
+   "*llamo?*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

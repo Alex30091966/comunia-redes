@@ -1,0 +1,100 @@
+{
+ "estilo": "editorial",
+ "acento": "#FF7A59",
+ "acento2": "#FFB020",
+ "tinte": "rgba(120,40,0,0.10)",
+ "tamTitulo": 92,
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/37410329.mp4",
+   "kicker": "Primero",
+   "titulo": "*Ascensor* / parado. / ¿Y ahora?",
+   "ui": {
+    "tipo": "toast",
+    "color": "rojo",
+    "titulo": "Nueva avería",
+    "texto": "Ascensor parado · Aragó 87"
+   }
+  },
+  {
+   "dur": 6.0,
+   "media": "media/6875327.mp4",
+   "kicker": "Una vecina llama",
+   "titulo": "Contesta / *el agente.*",
+   "ui": {
+    "tipo": "llamada",
+    "quien": "Vecina · 4º 1ª",
+    "frases": [
+     "El ascensor no funciona",
+     "¿Hay alguien dentro?",
+     "No, está parado en el 2º",
+     "Apuntado. Aviso a la empresa."
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/35578331.mp4",
+   "kicker": "Después",
+   "titulo": "Avisa a la / *empresa del / ascensor.*",
+   "ui": {
+    "tipo": "flujo",
+    "nodos": [
+     "Vecina",
+     "Agente IA",
+     "Ascensores"
+    ],
+    "llamada": "Llamando a ascensores…"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/15434928.mp4",
+   "kicker": "Mientras",
+   "titulo": "Tú lo ves / *en amarillo.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Averías · Aragó 87",
+    "filas": [
+     {
+      "texto": "Ascensor parado",
+      "estado": "ambar"
+     },
+     {
+      "texto": "Luz del garaje",
+      "estado": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/7251759.mp4",
+   "kicker": "Al final",
+   "titulo": "Arreglado. / *Verde.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Avería resuelta",
+    "texto": "Ascensor · Aragó 87"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Cada paso, a la vista.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "CRONOLOGÍA",
+  "lineas": [
+   "Ascensor",
+   "*parado*",
+   "¿y ahora?"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

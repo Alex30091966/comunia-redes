@@ -1,0 +1,97 @@
+{
+ "estilo": "partido",
+ "acento": "#A3E635",
+ "acento2": "#22C55E",
+ "tinte": "rgba(40,90,0,0.12)",
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/6875553.mp4",
+   "kicker": "Reto",
+   "titulo": "Te llama / un número / *que no tienes.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "ambar",
+    "titulo": "Llamada perdida",
+    "texto": "612 •• •• 47"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/8802318.mp4",
+   "kicker": "Lo buscas",
+   "titulo": "Escribe / *el teléfono.*",
+   "ui": {
+    "tipo": "busqueda",
+    "consulta": "612 34 56 47",
+    "nombre": "Laura Gil · 1º 2ª",
+    "detalle": "Comunidad C/ Sants 12"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/7261936.mp4",
+   "kicker": "O como quieras",
+   "titulo": "Nombre, email / *o DNI.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Nombre",
+     "Teléfono",
+     "Email",
+     "DNI"
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/7702052.mp4",
+   "kicker": "Aparece",
+   "titulo": "Y sabes / *quién es / al instante.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Laura Gil · Sants 12",
+    "filas": [
+     {
+      "texto": "Recibos",
+      "estado": "verde",
+      "etiqueta": "Al corriente"
+     },
+     {
+      "texto": "Vivienda",
+      "estado": "verde",
+      "etiqueta": "1º 2ª"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/8865593.mp4",
+   "kicker": "Y devuelves la llamada",
+   "titulo": "Ya sabes / *de qué hablar.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Vecina encontrada",
+    "texto": "Laura Gil · Sants 12"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "¿Quién era? Ya lo sabes.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "RETO",
+  "lineas": [
+   "¿De quién",
+   "*es este",
+   "número?*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

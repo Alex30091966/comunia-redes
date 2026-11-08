@@ -1,0 +1,89 @@
+{
+ "estilo": "claro",
+ "acento": "#2F5BEA",
+ "acento2": "#06B6D4",
+ "escenas": [
+  {
+   "dur": 4.4,
+   "media": "media/8061108.mp4",
+   "kicker": "Asamblea",
+   "titulo": "Firmar *sin / imprimir* / una hoja.",
+   "ui": {
+    "tipo": "firma",
+    "texto": "Firma del asistente",
+    "nombre": "Firmado · Joan Ferrer"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/7821798.mp4",
+   "kicker": "Antes",
+   "titulo": "Hojas, bolis / y *firmas / perdidas.*",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Imprimir la hoja de firmas",
+    "despues": "Firma en la tablet"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/28222728.mp4",
+   "kicker": "En la tablet",
+   "titulo": "Cada vecino / *firma ahí / mismo.*",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Asistentes",
+    "items": [
+     "Joan Ferrer",
+     "Laura Gil",
+     "Pere Vidal"
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/37892672.mp4",
+   "kicker": "Y luego",
+   "titulo": "El acta, / *enviada desde / el panel.*",
+   "ui": {
+    "tipo": "email",
+    "de": "Administración de fincas",
+    "asunto": "Acta de la asamblea",
+    "lineas": [
+     "Acta en PDF adjunta",
+     "Enviada a los propietarios"
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/40549107.mp4",
+   "kicker": "Resultado",
+   "titulo": "Asambleas / *sin papeles.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Convocar",
+     "Votar",
+     "Firmar",
+     "Enviar el acta"
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Firmado y enviado.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "ASAMBLEAS",
+  "lineas": [
+   "Firmar",
+   "*sin imprimir*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

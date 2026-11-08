@@ -1,0 +1,118 @@
+{
+ "estilo": "editorial",
+ "acento": "#67E8F9",
+ "acento2": "#38BDF8",
+ "tinte": "rgba(0,70,110,0.10)",
+ "tamTitulo": 92,
+ "escenas": [
+  {
+   "dur": 3.8,
+   "media": "media/19491370.mp4",
+   "kicker": "Cliente nuevo",
+   "titulo": "Te llega / *una finca / nueva.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Nueva comunidad",
+    "texto": "C/ Girona 45"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/34785723.mp4",
+   "kicker": "Alta",
+   "titulo": "Nombre y / *dirección.* / Ya está.",
+   "ui": {
+    "tipo": "ficha",
+    "nombre": "C/ Girona 45",
+    "direccion": "Barcelona",
+    "pestanas": [
+     "Datos",
+     "Edificio",
+     "Seguro",
+     "Documentos"
+    ],
+    "filas": [
+     {
+      "k": "Nombre",
+      "v": "C/ Girona 45"
+     },
+     {
+      "k": "Dirección",
+      "v": "Barcelona"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/7439142.mp4",
+   "kicker": "Propietarios",
+   "titulo": "Del Excel, / *de golpe.*",
+   "ui": {
+    "tipo": "excel",
+    "archivo": "girona45.xlsx",
+    "filas": [
+     "Bajos 1ª",
+     "1º 1ª",
+     "1º 2ª"
+    ],
+    "total": "Propietarios importados"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/7706170.mp4",
+   "kicker": "La ficha",
+   "titulo": "Seguro, / edificio, / *documentos.*",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Ficha de la comunidad",
+    "items": [
+     "Datos",
+     "Edificio",
+     "Seguro",
+     "Documentos"
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/36796001.mp4",
+   "kicker": "Y a trabajar",
+   "titulo": "Desde hoy, / *en tu / Resumen.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Resumen",
+    "filas": [
+     {
+      "texto": "C/ Girona 45",
+      "estado": "verde",
+      "etiqueta": "Nueva"
+     },
+     {
+      "texto": "C/ Sants 12",
+      "estado": "verde",
+      "etiqueta": "Al día"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Una finca nueva, sin papeleo.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "CLIENTE NUEVO",
+  "lineas": [
+   "Una finca",
+   "*nueva*",
+   "lista hoy"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "estilo": "cine",
+ "acento": "#34D399",
+ "acento2": "#14B8A6",
+ "tinte": "rgba(0,100,80,0.40)",
+ "escenas": [
+  {
+   "dur": 4.4,
+   "media": "media/7817047.mp4",
+   "kicker": "Toca junta",
+   "titulo": "Convocar, / *sin perder / la tarde.*",
+   "ui": {
+    "tipo": "email",
+    "de": "Administración de fincas",
+    "asunto": "Convocatoria · Junta ordinaria",
+    "lineas": [
+     "Con su orden del día",
+     "Enviada desde el panel"
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/6339896.mp4",
+   "kicker": "Orden del día",
+   "titulo": "Añades / *los puntos.*",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Orden del día",
+    "items": [
+     "Presupuesto del año",
+     "Pintar la escalera",
+     "Ruegos y preguntas"
+    ]
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/34708753.mp4",
+   "kicker": "Enviar",
+   "titulo": "Y la envías / *desde el panel.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Convocatoria enviada",
+    "texto": "A los propietarios"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/8141389.mp4",
+   "kicker": "El día",
+   "titulo": "Mayorías / *calculadas.*",
+   "ui": {
+    "tipo": "votacion",
+    "pregunta": "Pintar la escalera",
+    "opciones": [
+     {
+      "texto": "Sí",
+      "pct": 64
+     },
+     {
+      "texto": "No",
+      "pct": 36
+     }
+    ],
+    "mayoria": 50,
+    "resultado": "Aprobado"
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/31961382.mp4",
+   "kicker": "Después",
+   "titulo": "Acta y envío, / *sin salir / del panel.*",
+   "ui": {
+    "tipo": "documento",
+    "titulo": "Acta · Junta ordinaria",
+    "lineas": [
+     "Acuerdos y votaciones",
+     "Firmas de los asistentes"
+    ],
+    "sello": "Enviada"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "La junta, de principio a fin.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "JUNTA",
+  "lineas": [
+   "Convoca",
+   "*sin perder",
+   "la tarde*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

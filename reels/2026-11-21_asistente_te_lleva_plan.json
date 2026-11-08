@@ -1,0 +1,113 @@
+{
+ "estilo": "editorial",
+ "acento": "#F9A8D4",
+ "acento2": "#E879F9",
+ "tinte": "rgba(120,0,90,0.10)",
+ "tamTitulo": 92,
+ "escenas": [
+  {
+   "dur": 4.6,
+   "media": "media/8418405.mp4",
+   "kicker": "¿Dónde estaba?",
+   "titulo": "No busques / en menús. / *Pregúntale.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "¿Dónde veo los morosos de Sants 12?"
+     },
+     {
+      "de": "agente",
+      "texto": "Te llevo a Vecinos de Sants 12 👇"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/6335701.mp4",
+   "kicker": "Como quieras",
+   "titulo": "Se le *escribe* / o se le / *habla.*",
+   "ui": {
+    "tipo": "pasos",
+    "pasos": [
+     "Escríbele",
+     "O háblale",
+     "Te responde"
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/5971056.mp4",
+   "kicker": "Te lleva",
+   "titulo": "Y te abre / *la pantalla.*",
+   "ui": {
+    "tipo": "estados",
+    "titulo": "Vecinos · Sants 12",
+    "filas": [
+     {
+      "texto": "Marta Puig",
+      "estado": "rojo",
+      "etiqueta": "Debe"
+     },
+     {
+      "texto": "Joan Ferrer",
+      "estado": "verde",
+      "etiqueta": "Al corriente"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 5.4,
+   "media": "media/7683268.mp4",
+   "kicker": "Dudas",
+   "titulo": "Dudas del / panel, *al / momento.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "¿Cómo saco un certificado de deuda?"
+     },
+     {
+      "de": "agente",
+      "texto": "Desde la ficha del vecino, con un clic. ¿Te llevo?"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "media": "media/40281335.mp4",
+   "kicker": "Siempre ahí",
+   "titulo": "Abajo a / *la derecha.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Asistente",
+    "texto": "Abajo a la derecha"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Preguntas y te lleva.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "ATAJO",
+  "lineas": [
+   "No",
+   "busques",
+   "*pregunta*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

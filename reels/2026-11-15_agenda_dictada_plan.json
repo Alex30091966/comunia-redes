@@ -1,0 +1,99 @@
+{
+ "estilo": "partido",
+ "acento": "#F5B83D",
+ "acento2": "#F97316",
+ "tinte": "rgba(120,60,0,0.12)",
+ "escenas": [
+  {
+   "dur": 5.0,
+   "media": "media/5975279.mp4",
+   "kicker": "Manos ocupadas",
+   "titulo": "Díctalo. / *Que se apunte / solo.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "🎙️ Apunta reunión con el presidente de Aragó 87 el jueves a las 18:00"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/7310262.mp4",
+   "kicker": "El Asistente",
+   "titulo": "Te enseña / *lo que va / a apuntar.*",
+   "ui": {
+    "tipo": "confirmar",
+    "peticion": "Reunión con el presidente, jueves 18:00",
+    "accion": "Crear cita en la Agenda",
+    "detalle": "Jueves · 18:00 · Aragó 87"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/19798260.mp4",
+   "kicker": "En la Agenda",
+   "titulo": "Y aparece en / *tu calendario.*",
+   "ui": {
+    "tipo": "calendario",
+    "dia": "Jueves",
+    "eventos": [
+     {
+      "hora": "10:00",
+      "texto": "Visita a C/ Sants 12"
+     },
+     {
+      "hora": "18:00",
+      "texto": "Reunión presidente · Aragó 87"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/19798255.mp4",
+   "kicker": "Tareas también",
+   "titulo": "Pedir *presupuesto,* / *llamar,* revisar…",
+   "ui": {
+    "tipo": "lista",
+    "titulo": "Tareas",
+    "items": [
+     "Pedir presupuesto de fachada",
+     "Llamar al seguro",
+     "Revisar el acta"
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "media": "media/6115070.mp4",
+   "kicker": "Resultado",
+   "titulo": "Tu semana, / *ordenada.*",
+   "ui": {
+    "tipo": "toast",
+    "color": "verde",
+    "titulo": "Cita creada",
+    "texto": "Jueves · 18:00"
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "Lo dices y queda apuntado.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "AGENDA",
+  "lineas": [
+   "Díctalo",
+   "*y queda",
+   "apuntado*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}

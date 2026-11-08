@@ -1,0 +1,87 @@
+{
+ "estilo": "claro",
+ "acento": "#E8590C",
+ "acento2": "#F59F00",
+ "escenas": [
+  {
+   "dur": 4.4,
+   "media": "media/8865589.mp4",
+   "kicker": "Tranquilidad",
+   "titulo": "¿Una IA que / *toca cosas / sola?* No.",
+   "ui": {
+    "tipo": "mito",
+    "mito": "La IA hace cambios sin preguntarte",
+    "realidad": "Te enseña lo que hará y espera a Confirmar"
+   }
+  },
+  {
+   "dur": 4.4,
+   "media": "media/7701961.mp4",
+   "kicker": "Le pides algo",
+   "titulo": "Apunta una / *asamblea.*",
+   "ui": {
+    "tipo": "chat",
+    "cabecera": "Asistente ComunIA",
+    "mensajes": [
+     {
+      "de": "vecino",
+      "texto": "Apunta la asamblea de Aragó 87 el día 3 a las 19:00"
+     }
+    ]
+   }
+  },
+  {
+   "dur": 5.0,
+   "media": "media/15365457.mp4",
+   "kicker": "Te lo enseña",
+   "titulo": "Ves *qué va / a hacer.*",
+   "ui": {
+    "tipo": "confirmar",
+    "peticion": "Asamblea Aragó 87, día 3, 19:00",
+    "accion": "Crear cita en la Agenda",
+    "detalle": "Asamblea · Aragó 87 · 19:00"
+   }
+  },
+  {
+   "dur": 4.6,
+   "media": "media/7953570.mp4",
+   "kicker": "Tú decides",
+   "titulo": "*Confirmar* / o cancelar.",
+   "ui": {
+    "tipo": "tachado",
+    "antes": "Cambios por sorpresa",
+    "despues": "Solo con tu Confirmar"
+   }
+  },
+  {
+   "dur": 4.8,
+   "media": "media/5971050.mp4",
+   "kicker": "Siempre igual",
+   "titulo": "Citas, facturas, / *pantallas.* / Tú mandas.",
+   "ui": {
+    "tipo": "lista",
+    "items": [
+     "Te dice qué va a hacer",
+     "Espera tu Confirmar",
+     "Y entonces lo hace"
+    ]
+   }
+  },
+  {
+   "dur": 4.2,
+   "outro": {
+    "tagline": "La IA propone. Tú decides.",
+    "cta": "Síguenos · @comunia.cat"
+   }
+  }
+ ],
+ "portada": {
+  "kicker": "TRANQUILIDAD",
+  "lineas": [
+   "La IA",
+   "propone",
+   "*tú decides*"
+  ],
+  "media": "media/portada.jpg"
+ }
+}
