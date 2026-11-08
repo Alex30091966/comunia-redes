@@ -347,7 +347,18 @@
       "archivos": {
         "imagen": "posts/2026-11-09_confirmar.png"
       },
-      "aprobado": false
+      "aprobado": false,
+      "metricool": {
+        "id": 420922779,
+        "uuid": "6962171501460472381",
+        "programado": "2026-11-09T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=6962171501460472381"
+      }
     }
   ]
 }
