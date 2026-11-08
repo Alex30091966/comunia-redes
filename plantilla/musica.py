@@ -3,8 +3,12 @@
 import sys, numpy as np, wave
 dur=float(sys.argv[1]); cortes=[float(x) for x in sys.argv[2].split(',') if x]; out=sys.argv[3]
 seed=int(sys.argv[4]) if len(sys.argv)>4 else 1
+estilo=sys.argv[5] if len(sys.argv)>5 else 'tech'   # tech | lofi | pluck | house
 rng=np.random.default_rng(seed); sr=44100; n=int(sr*dur); t=np.arange(n)/sr
-bpm=[104,108,112,116,120][seed%5]; beat=60/bpm
+bpm=[104,108,112,116,120][seed%5]
+if estilo=='lofi': bpm=[84,88,90,92][seed%4]
+if estilo=='house': bpm=[122,124,126][seed%3]
+beat=60/bpm
 roots=[[57,53,60,55],[50,46,53,48],[52,48,55,50],[55,51,58,53]][seed%4]  # progresiones menores
 mtof=lambda m:440*2**((m-69)/12)
 mix=np.zeros(n)
@@ -40,6 +44,40 @@ while k*beat<dur:
         if l>0 and k>=1:
             nz=rng.standard_normal(l); mix[hs:hs+l]+=0.045*np.diff(np.concatenate([[0],nz]))*np.exp(-np.arange(l)/sr*80)
     k+=1
+# capas según estilo
+if estilo in ('pluck','lofi'):
+    # arpegio de pulsos (pluck) o piano eléctrico suave (lofi)
+    paso=beat/2 if estilo=='pluck' else beat
+    k=0
+    while k*paso<dur:
+        s0=int(k*paso*sr); bar_i=int(k*paso/bar)%4; r=roots[bar_i]
+        nota=r+12+[0,7,12,3,7,15,12,7][k%8]
+        l=min(int((0.35 if estilo=='pluck' else 0.9)*sr),n-s0)
+        if l>0 and k*paso>=bar:
+            tp=np.arange(l)/sr
+            if estilo=='pluck':
+                v=np.sign(np.sin(2*np.pi*mtof(nota)*tp))*0.5+np.sin(2*np.pi*mtof(nota)*tp)
+                mix[s0:s0+l]+=0.05*v*np.exp(-tp*14)
+            else:
+                v=np.sin(2*np.pi*mtof(nota-12)*tp+0.8*np.sin(2*np.pi*mtof(nota-12)*tp))
+                mix[s0:s0+l]+=0.06*v*np.exp(-tp*3.5)
+        k+=1
+if estilo=='house':
+    # bombo a negras + charles abierto a contratiempo
+    k=0
+    while k*beat<dur:
+        s0=int(k*beat*sr)
+        if k>=4:
+            l=min(int(0.3*sr),n-s0); tk=np.arange(l)/sr
+            mix[s0:s0+l]+=0.35*np.sin(2*np.pi*(50+80*np.exp(-tk*35))*tk)*np.exp(-tk*10)
+            hs=s0+int(0.5*beat*sr); l=min(int(0.12*sr),n-hs)
+            if l>0:
+                nz=rng.standard_normal(l); mix[hs:hs+l]+=0.06*np.diff(np.concatenate([[0],nz]))*np.exp(-np.arange(l)/sr*30)
+        k+=1
+if estilo=='lofi':
+    # crepitar de vinilo
+    cr=np.zeros(n); pos=rng.integers(0,n,int(dur*25)); cr[pos]=rng.standard_normal(len(pos))
+    mix+=0.08*cr
 # whooshes en cada corte
 for c in cortes:
     s=int((c-0.35)*sr); l=int(0.7*sr)
