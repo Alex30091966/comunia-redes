@@ -330,6 +330,24 @@
         "draft": true,
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-4108297121272476340"
       }
+    },
+    {
+      "fecha": "2026-11-09",
+      "tipo": "post",
+      "tema": "asistente: nada sin Confirmar",
+      "angulo": "mito vs. realidad",
+      "colores": "coral/violeta",
+      "gancho": "Tú decides. Siempre.",
+      "pexels_ids": [
+        1604025
+      ],
+      "sha256": [
+        "6ca3b0c238d38d8a656e73aefc2795e395b54a91a6975e54861bd0617378b52b"
+      ],
+      "archivos": {
+        "imagen": "posts/2026-11-09_confirmar.png"
+      },
+      "aprobado": false
     }
   ]
 }
