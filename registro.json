@@ -1,451 +1,480 @@
 {
- "publicaciones": [
-  {
-   "fecha": "2026-11-02",
-   "tipo": "reel",
-   "tema": "averias",
-   "angulo": "paso a paso",
-   "colores": "cian/indigo",
-   "primeraEscena": "toast",
-   "gancho": "Agua en el portal. Y tú sin coger el teléfono.",
-   "archivos": {
-    "video": "reels/2026-11-02_averias_pro.mp4",
-    "portada": "reels/2026-11-02_averias_pro_portada.png"
-   },
-   "sha256": [
-    "989df5b4beb931e62967ca20752a60232afa2c7db04fa8bd2a08ce0d6283658c",
-    "0ab1ff318bb55990fc1adb4930c43cad1374ed21e43531c2efa3f548104e8d8e"
-   ],
-   "pexels_ids": [
-    8558748,
-    6000606,
-    8853520,
-    7706608,
-    6247913,
-    39788681
-   ],
-   "metricool": {
-    "id": 413249508,
-    "programado": "2026-11-02T10:30 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-4778681423407462376"
-   }
-  },
-  {
-   "fecha": "2026-11-03",
-   "tipo": "reel",
-   "tema": "morosos",
-   "angulo": "problema → solución",
-   "colores": "ambar/coral",
-   "gancho": "¿Sigues persiguiendo recibos impagados?",
-   "archivos": {
-    "video": "reels/2026-11-03_morosos.mp4",
-    "portada": "reels/2026-11-03_morosos_portada.png",
-    "plan": "reels/2026-11-03_morosos_plan.json"
-   },
-   "sha256": [
-    "79a6848dee0b72cb50c130ccd4398c67be6cfad9e6bb4ae958a38e68aa84d4b7",
-    "dfcff532fe7dcc655bba6ab4fa0a119a8f5848474743f6f6a128ad6ec605b19e"
-   ],
-   "pexels_ids": [
-    6781912,
-    5924997,
-    13801233,
-    8086207,
-    6325839,
-    8297030
-   ],
-   "aprobado": true,
-   "metricool": {
-    "id": 413300384,
-    "programado": "2026-11-03T10:30 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-4250689690677981806"
-   }
-  },
-  {
-   "fecha": "2026-11-04",
-   "tipo": "reel",
-   "tema": "asambleas",
-   "angulo": "antes/después",
-   "colores": "menta/turquesa",
-   "gancho": "La asamblea de vecinos, sin papeleo",
-   "archivos": {
-    "video": "reels/2026-11-04_asambleas.mp4",
-    "portada": "reels/2026-11-04_asambleas_portada.png",
-    "plan": "reels/2026-11-04_asambleas_plan.json"
-   },
-   "sha256": [
-    "43ea1464c44fe80c96492ed6d0df15596200d17374d106da1ff7e79a308b4337",
-    "48669035e28271009c75701ed9d5e913c225810dc1eeb260582b0b19ce680fcc"
-   ],
-   "pexels_ids": [
-    8731242,
-    12893569,
-    8344350,
-    8814706,
-    6608213,
-    9480118
-   ],
-   "aprobado": true,
-   "metricool": {
-    "id": 413300392,
-    "programado": "2026-11-04T10:30 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-6155600724131822975"
-   }
-  },
-  {
-   "fecha": "2026-11-05",
-   "tipo": "reel",
-   "tema": "asistente",
-   "angulo": "¿sabías que…?",
-   "colores": "violeta/rosa",
-   "gancho": "Un asistente al que le preguntas lo que quieras",
-   "archivos": {
-    "video": "reels/2026-11-05_asistente.mp4",
-    "portada": "reels/2026-11-05_asistente_portada.png",
-    "plan": "reels/2026-11-05_asistente_plan.json"
-   },
-   "sha256": [
-    "9de2a39e6fd5f5caeabb1f6a85429e0a2d7db9282652f2b8aa1f59d58d27fb17",
-    "92689293c8feef2e701c264fc6a41d4cb4f5c3ebfdc23949af31192444f7ea90"
-   ],
-   "pexels_ids": [
-    7821405,
-    7261927,
-    7247861,
-    12896409,
-    8472307,
-    11206424
-   ],
-   "aprobado": true,
-   "metricool": {
-    "id": 413300408,
-    "programado": "2026-11-05T10:30 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-1555461908355002747"
-   }
-  },
-  {
-   "fecha": "2026-11-06",
-   "tipo": "reel",
-   "tema": "comunidades",
-   "angulo": "error común",
-   "colores": "cian/indigo-claro",
-   "gancho": "¿Todas tus comunidades en un Excel?",
-   "archivos": {
-    "video": "reels/2026-11-06_comunidades.mp4",
-    "portada": "reels/2026-11-06_comunidades_portada.png",
-    "plan": "reels/2026-11-06_comunidades_plan.json"
-   },
-   "sha256": [
-    "8fdb43e3082701d7f585330b071533a036b17ed3617daa6061eaea4c14a1c164",
-    "87e5068a9ca9277721510eb65e1cff891b5b13d6a7287e82df6a5cbc832dac95"
-   ],
-   "pexels_ids": [
-    6221104,
-    12894327,
-    34941081,
-    37410328,
-    19798253,
-    14846410
-   ],
-   "aprobado": true,
-   "metricool": {
-    "id": 413300420,
-    "programado": "2026-11-06T10:30 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-9136873654532750962"
-   }
-  },
-  {
-   "fecha": "2026-11-07",
-   "tipo": "reel",
-   "tema": "proveedores",
-   "angulo": "paso a paso",
-   "colores": "lima/esmeralda",
-   "gancho": "Tus proveedores, siempre a mano",
-   "archivos": {
-    "video": "reels/2026-11-07_proveedores.mp4",
-    "portada": "reels/2026-11-07_proveedores_portada.png",
-    "plan": "reels/2026-11-07_proveedores_plan.json"
-   },
-   "sha256": [
-    "74ea9fb56633cd5f82674c68dd931db1063ac697b355606c81d6cfb397a57854",
-    "36e5d2e143010ece5c09b2238d505cdda4c85e8b99f9651d65e49019e9f43e67"
-   ],
-   "pexels_ids": [
-    8987291,
-    35206231,
-    7641180,
-    8321904,
-    7250670,
-    32391499
-   ],
-   "aprobado": true,
-   "metricool": {
-    "id": 413300429,
-    "programado": "2026-11-07T10:30 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-7266497949791663998"
-   }
-  },
-  {
-   "fecha": "2026-11-08",
-   "tipo": "reel",
-   "tema": "resumen",
-   "angulo": "un día del administrador",
-   "colores": "naranja/rosa",
-   "gancho": "Tu despacho, de un vistazo",
-   "archivos": {
-    "video": "reels/2026-11-08_resumen.mp4",
-    "portada": "reels/2026-11-08_resumen_portada.png",
-    "plan": "reels/2026-11-08_resumen_plan.json"
-   },
-   "sha256": [
-    "bb4e56f17f18d2b93402363e2cee244c1ad83e56c5e79a831de0673948b7493d",
-    "04c09606af984921ba778875b0b65160721fc4f37f8db2234dd450cb2e663029"
-   ],
-   "pexels_ids": [
-    25932454,
-    7307854,
-    6998323,
-    7652166,
-    19816673,
-    17082168
-   ],
-   "aprobado": true,
-   "metricool": {
-    "id": 413300442,
-    "programado": "2026-11-08T10:30 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-6108504821625892943"
-   }
-  },
-  {
-   "fecha": "2026-11-04",
-   "tipo": "post",
-   "tema": "obligaciones",
-   "angulo": "error común",
-   "colores": "ambar/rojo-coral",
-   "gancho": "Que no se te pase ni una obligación de la comunidad.",
-   "archivos": {
-    "imagen": "posts/2026-11-04_obligaciones.png"
-   },
-   "sha256": [
-    "0d39ab593d6d72f8f285a227d55edaeec98ec4b89c00400397643aacea50bcc4"
-   ],
-   "pexels_ids": [
-    16798886
-   ],
-   "aprobado": false,
-   "metricool": {
-    "id": 415574739,
-    "uuid": "4266893612077040365",
-    "programado": "2026-11-04T18:00 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "draft": true,
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=4266893612077040365"
-   }
-  },
-  {
-   "fecha": "2026-11-05",
-   "tipo": "post",
-   "tema": "buscador de vecinos",
-   "angulo": "problema → solución",
-   "colores": "azul/lavanda",
-   "gancho": "¿De quién es este teléfono? Lo sabes ya.",
-   "archivos": {
-    "imagen": "posts/2026-11-05_buscador.png"
-   },
-   "sha256": [
-    "19d73b3c23ab9a14cb8e3eb2c4e5584976a578c1ddd3465c04813236dab842b3"
-   ],
-   "pexels_ids": [
-    37977979
-   ],
-   "aprobado": false,
-   "metricool": {
-    "id": 416797290,
-    "uuid": "-1337767109649741568",
-    "programado": "2026-11-05T18:00 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "draft": true,
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-1337767109649741568"
-   }
-  },
-  {
-   "fecha": "2026-11-06",
-   "tipo": "post",
-   "tema": "certificados en PDF",
-   "angulo": "mito vs. realidad",
-   "colores": "oro/turquesa",
-   "gancho": "¿Un certificado de deuda? Días de papeleo. O un clic.",
-   "archivos": {
-    "imagen": "posts/2026-11-06_certificados.png"
-   },
-   "pexels_ids": [
-    8815843
-   ],
-   "sha256": [
-    "40d7760be3b55dad9458a6af6d2113e04b968b619213c4fa5d31cf2557fd89e2"
-   ],
-   "aprobado": false,
-   "metricool": {
-    "id": 418015060,
-    "uuid": "-4108297121272476340",
-    "programado": "2026-11-06T17:00 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "draft": true,
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-4108297121272476340"
-   }
-  },
-  {
-   "fecha": "2026-11-09",
-   "tipo": "post",
-   "tema": "asistente: nada sin Confirmar",
-   "angulo": "mito vs. realidad",
-   "colores": "coral/violeta",
-   "gancho": "Tú decides. Siempre.",
-   "pexels_ids": [
-    1604025
-   ],
-   "sha256": [
-    "6ca3b0c238d38d8a656e73aefc2795e395b54a91a6975e54861bd0617378b52b"
-   ],
-   "archivos": {
-    "imagen": "posts/2026-11-09_confirmar.png"
-   },
-   "aprobado": true,
-   "metricool": {
-    "id": 421030659,
-    "uuid": "6962171501460472381",
-    "programado": "2026-11-09T18:00 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "draft": false,
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=6962171501460472381"
-   }
-  },
-  {
-   "fecha": "2026-11-10",
-   "tipo": "post",
-   "tema": "morosos arriba y recordatorio con un clic",
-   "angulo": "antes/después",
-   "colores": "dorado/indigo",
-   "gancho": "Ahora, los morosos te salen arriba.",
-   "pexels_ids": [
-    6862449
-   ],
-   "sha256": [
-    "91862581be3cd980a60a088fe2569b0a5f2e60317755e90fa57f0303723d5f71"
-   ],
-   "archivos": {
-    "imagen": "posts/2026-11-10_morosos_arriba.png"
-   },
-   "aprobado": false,
-   "metricool": {
-    "id": 422153406,
-    "uuid": "7649509185734133037",
-    "programado": "2026-11-10T18:00 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "draft": true,
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=7649509185734133037"
-   }
-  },
-  {
-   "fecha": "2026-11-11",
-   "tipo": "post",
-   "tema": "ficha de comunidad: seguro y documentos",
-   "angulo": "un día del administrador",
-   "colores": "menta/turquesa",
-   "gancho": "¿La póliza? Ya la tienes delante.",
-   "pexels_ids": [
-    7736040
-   ],
-   "sha256": [
-    "ad81ee61cbfa1964ca29850e0fd592d88c6c00f3b1c3c95c14124bef4fd293af"
-   ],
-   "archivos": {
-    "imagen": "posts/2026-11-11_ficha_seguro.png"
-   },
-   "aprobado": false,
-   "metricool": {
-    "id": 423449561,
-    "uuid": "8847772617363243353",
-    "programado": "2026-11-11T18:00 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "draft": true,
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=8847772617363243353"
-   }
-  },
-  {
-   "fecha": "2026-11-12",
-   "tipo": "post",
-   "tema": "asambleas: acta en PDF automática",
-   "angulo": "paso a paso",
-   "colores": "violeta/rosa",
-   "gancho": "Acaba la asamblea. El acta ya está hecha.",
-   "pexels_ids": [
-    7648040
-   ],
-   "sha256": [
-    "a3036683afbf52504b1d71e5b6f07654a08318099f3f7bb3b3fc244443fe5d51"
-   ],
-   "archivos": {
-    "imagen": "posts/2026-11-12_acta_asamblea.png"
-   },
-   "aprobado": false,
-   "metricool": {
-    "id": 424714150,
-    "uuid": "1527401212748187574",
-    "programado": "2026-11-12T18:00 Europe/Madrid",
-    "redes": [
-     "instagram",
-     "facebook"
-    ],
-    "draft": true,
-    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=1527401212748187574"
-   }
-  }
- ]
+  "publicaciones": [
+    {
+      "fecha": "2026-11-02",
+      "tipo": "reel",
+      "tema": "averias",
+      "angulo": "paso a paso",
+      "colores": "cian/indigo",
+      "primeraEscena": "toast",
+      "gancho": "Agua en el portal. Y tú sin coger el teléfono.",
+      "archivos": {
+        "video": "reels/2026-11-02_averias_pro.mp4",
+        "portada": "reels/2026-11-02_averias_pro_portada.png"
+      },
+      "sha256": [
+        "989df5b4beb931e62967ca20752a60232afa2c7db04fa8bd2a08ce0d6283658c",
+        "0ab1ff318bb55990fc1adb4930c43cad1374ed21e43531c2efa3f548104e8d8e"
+      ],
+      "pexels_ids": [
+        8558748,
+        6000606,
+        8853520,
+        7706608,
+        6247913,
+        39788681
+      ],
+      "metricool": {
+        "id": 413249508,
+        "programado": "2026-11-02T10:30 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-4778681423407462376"
+      }
+    },
+    {
+      "fecha": "2026-11-03",
+      "tipo": "reel",
+      "tema": "morosos",
+      "angulo": "problema → solución",
+      "colores": "ambar/coral",
+      "gancho": "¿Sigues persiguiendo recibos impagados?",
+      "archivos": {
+        "video": "reels/2026-11-03_morosos.mp4",
+        "portada": "reels/2026-11-03_morosos_portada.png",
+        "plan": "reels/2026-11-03_morosos_plan.json"
+      },
+      "sha256": [
+        "79a6848dee0b72cb50c130ccd4398c67be6cfad9e6bb4ae958a38e68aa84d4b7",
+        "dfcff532fe7dcc655bba6ab4fa0a119a8f5848474743f6f6a128ad6ec605b19e"
+      ],
+      "pexels_ids": [
+        6781912,
+        5924997,
+        13801233,
+        8086207,
+        6325839,
+        8297030
+      ],
+      "aprobado": true,
+      "metricool": {
+        "id": 413300384,
+        "programado": "2026-11-03T10:30 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-4250689690677981806"
+      }
+    },
+    {
+      "fecha": "2026-11-04",
+      "tipo": "reel",
+      "tema": "asambleas",
+      "angulo": "antes/después",
+      "colores": "menta/turquesa",
+      "gancho": "La asamblea de vecinos, sin papeleo",
+      "archivos": {
+        "video": "reels/2026-11-04_asambleas.mp4",
+        "portada": "reels/2026-11-04_asambleas_portada.png",
+        "plan": "reels/2026-11-04_asambleas_plan.json"
+      },
+      "sha256": [
+        "43ea1464c44fe80c96492ed6d0df15596200d17374d106da1ff7e79a308b4337",
+        "48669035e28271009c75701ed9d5e913c225810dc1eeb260582b0b19ce680fcc"
+      ],
+      "pexels_ids": [
+        8731242,
+        12893569,
+        8344350,
+        8814706,
+        6608213,
+        9480118
+      ],
+      "aprobado": true,
+      "metricool": {
+        "id": 413300392,
+        "programado": "2026-11-04T10:30 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-6155600724131822975"
+      }
+    },
+    {
+      "fecha": "2026-11-05",
+      "tipo": "reel",
+      "tema": "asistente",
+      "angulo": "¿sabías que…?",
+      "colores": "violeta/rosa",
+      "gancho": "Un asistente al que le preguntas lo que quieras",
+      "archivos": {
+        "video": "reels/2026-11-05_asistente.mp4",
+        "portada": "reels/2026-11-05_asistente_portada.png",
+        "plan": "reels/2026-11-05_asistente_plan.json"
+      },
+      "sha256": [
+        "9de2a39e6fd5f5caeabb1f6a85429e0a2d7db9282652f2b8aa1f59d58d27fb17",
+        "92689293c8feef2e701c264fc6a41d4cb4f5c3ebfdc23949af31192444f7ea90"
+      ],
+      "pexels_ids": [
+        7821405,
+        7261927,
+        7247861,
+        12896409,
+        8472307,
+        11206424
+      ],
+      "aprobado": true,
+      "metricool": {
+        "id": 413300408,
+        "programado": "2026-11-05T10:30 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-1555461908355002747"
+      }
+    },
+    {
+      "fecha": "2026-11-06",
+      "tipo": "reel",
+      "tema": "comunidades",
+      "angulo": "error común",
+      "colores": "cian/indigo-claro",
+      "gancho": "¿Todas tus comunidades en un Excel?",
+      "archivos": {
+        "video": "reels/2026-11-06_comunidades.mp4",
+        "portada": "reels/2026-11-06_comunidades_portada.png",
+        "plan": "reels/2026-11-06_comunidades_plan.json"
+      },
+      "sha256": [
+        "8fdb43e3082701d7f585330b071533a036b17ed3617daa6061eaea4c14a1c164",
+        "87e5068a9ca9277721510eb65e1cff891b5b13d6a7287e82df6a5cbc832dac95"
+      ],
+      "pexels_ids": [
+        6221104,
+        12894327,
+        34941081,
+        37410328,
+        19798253,
+        14846410
+      ],
+      "aprobado": true,
+      "metricool": {
+        "id": 413300420,
+        "programado": "2026-11-06T10:30 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-9136873654532750962"
+      }
+    },
+    {
+      "fecha": "2026-11-07",
+      "tipo": "reel",
+      "tema": "proveedores",
+      "angulo": "paso a paso",
+      "colores": "lima/esmeralda",
+      "gancho": "Tus proveedores, siempre a mano",
+      "archivos": {
+        "video": "reels/2026-11-07_proveedores.mp4",
+        "portada": "reels/2026-11-07_proveedores_portada.png",
+        "plan": "reels/2026-11-07_proveedores_plan.json"
+      },
+      "sha256": [
+        "74ea9fb56633cd5f82674c68dd931db1063ac697b355606c81d6cfb397a57854",
+        "36e5d2e143010ece5c09b2238d505cdda4c85e8b99f9651d65e49019e9f43e67"
+      ],
+      "pexels_ids": [
+        8987291,
+        35206231,
+        7641180,
+        8321904,
+        7250670,
+        32391499
+      ],
+      "aprobado": true,
+      "metricool": {
+        "id": 413300429,
+        "programado": "2026-11-07T10:30 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-7266497949791663998"
+      }
+    },
+    {
+      "fecha": "2026-11-08",
+      "tipo": "reel",
+      "tema": "resumen",
+      "angulo": "un día del administrador",
+      "colores": "naranja/rosa",
+      "gancho": "Tu despacho, de un vistazo",
+      "archivos": {
+        "video": "reels/2026-11-08_resumen.mp4",
+        "portada": "reels/2026-11-08_resumen_portada.png",
+        "plan": "reels/2026-11-08_resumen_plan.json"
+      },
+      "sha256": [
+        "bb4e56f17f18d2b93402363e2cee244c1ad83e56c5e79a831de0673948b7493d",
+        "04c09606af984921ba778875b0b65160721fc4f37f8db2234dd450cb2e663029"
+      ],
+      "pexels_ids": [
+        25932454,
+        7307854,
+        6998323,
+        7652166,
+        19816673,
+        17082168
+      ],
+      "aprobado": true,
+      "metricool": {
+        "id": 413300442,
+        "programado": "2026-11-08T10:30 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-6108504821625892943"
+      }
+    },
+    {
+      "fecha": "2026-11-04",
+      "tipo": "post",
+      "tema": "obligaciones",
+      "angulo": "error común",
+      "colores": "ambar/rojo-coral",
+      "gancho": "Que no se te pase ni una obligación de la comunidad.",
+      "archivos": {
+        "imagen": "posts/2026-11-04_obligaciones.png"
+      },
+      "sha256": [
+        "0d39ab593d6d72f8f285a227d55edaeec98ec4b89c00400397643aacea50bcc4"
+      ],
+      "pexels_ids": [
+        16798886
+      ],
+      "aprobado": false,
+      "metricool": {
+        "id": 415574739,
+        "uuid": "4266893612077040365",
+        "programado": "2026-11-04T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=4266893612077040365"
+      }
+    },
+    {
+      "fecha": "2026-11-05",
+      "tipo": "post",
+      "tema": "buscador de vecinos",
+      "angulo": "problema → solución",
+      "colores": "azul/lavanda",
+      "gancho": "¿De quién es este teléfono? Lo sabes ya.",
+      "archivos": {
+        "imagen": "posts/2026-11-05_buscador.png"
+      },
+      "sha256": [
+        "19d73b3c23ab9a14cb8e3eb2c4e5584976a578c1ddd3465c04813236dab842b3"
+      ],
+      "pexels_ids": [
+        37977979
+      ],
+      "aprobado": false,
+      "metricool": {
+        "id": 416797290,
+        "uuid": "-1337767109649741568",
+        "programado": "2026-11-05T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-1337767109649741568"
+      }
+    },
+    {
+      "fecha": "2026-11-06",
+      "tipo": "post",
+      "tema": "certificados en PDF",
+      "angulo": "mito vs. realidad",
+      "colores": "oro/turquesa",
+      "gancho": "¿Un certificado de deuda? Días de papeleo. O un clic.",
+      "archivos": {
+        "imagen": "posts/2026-11-06_certificados.png"
+      },
+      "pexels_ids": [
+        8815843
+      ],
+      "sha256": [
+        "40d7760be3b55dad9458a6af6d2113e04b968b619213c4fa5d31cf2557fd89e2"
+      ],
+      "aprobado": false,
+      "metricool": {
+        "id": 418015060,
+        "uuid": "-4108297121272476340",
+        "programado": "2026-11-06T17:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-4108297121272476340"
+      }
+    },
+    {
+      "fecha": "2026-11-09",
+      "tipo": "post",
+      "tema": "asistente: nada sin Confirmar",
+      "angulo": "mito vs. realidad",
+      "colores": "coral/violeta",
+      "gancho": "Tú decides. Siempre.",
+      "pexels_ids": [
+        1604025
+      ],
+      "sha256": [
+        "6ca3b0c238d38d8a656e73aefc2795e395b54a91a6975e54861bd0617378b52b"
+      ],
+      "archivos": {
+        "imagen": "posts/2026-11-09_confirmar.png"
+      },
+      "aprobado": true,
+      "metricool": {
+        "id": 421030659,
+        "uuid": "6962171501460472381",
+        "programado": "2026-11-09T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": false,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=6962171501460472381"
+      }
+    },
+    {
+      "fecha": "2026-11-10",
+      "tipo": "post",
+      "tema": "morosos arriba y recordatorio con un clic",
+      "angulo": "antes/después",
+      "colores": "dorado/indigo",
+      "gancho": "Ahora, los morosos te salen arriba.",
+      "pexels_ids": [
+        6862449
+      ],
+      "sha256": [
+        "91862581be3cd980a60a088fe2569b0a5f2e60317755e90fa57f0303723d5f71"
+      ],
+      "archivos": {
+        "imagen": "posts/2026-11-10_morosos_arriba.png"
+      },
+      "aprobado": false,
+      "metricool": {
+        "id": 422153406,
+        "uuid": "7649509185734133037",
+        "programado": "2026-11-10T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=7649509185734133037"
+      }
+    },
+    {
+      "fecha": "2026-11-11",
+      "tipo": "post",
+      "tema": "ficha de comunidad: seguro y documentos",
+      "angulo": "un día del administrador",
+      "colores": "menta/turquesa",
+      "gancho": "¿La póliza? Ya la tienes delante.",
+      "pexels_ids": [
+        7736040
+      ],
+      "sha256": [
+        "ad81ee61cbfa1964ca29850e0fd592d88c6c00f3b1c3c95c14124bef4fd293af"
+      ],
+      "archivos": {
+        "imagen": "posts/2026-11-11_ficha_seguro.png"
+      },
+      "aprobado": false,
+      "metricool": {
+        "id": 423449561,
+        "uuid": "8847772617363243353",
+        "programado": "2026-11-11T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=8847772617363243353"
+      }
+    },
+    {
+      "fecha": "2026-11-12",
+      "tipo": "post",
+      "tema": "asambleas: acta en PDF automática",
+      "angulo": "paso a paso",
+      "colores": "violeta/rosa",
+      "gancho": "Acaba la asamblea. El acta ya está hecha.",
+      "pexels_ids": [
+        7648040
+      ],
+      "sha256": [
+        "a3036683afbf52504b1d71e5b6f07654a08318099f3f7bb3b3fc244443fe5d51"
+      ],
+      "archivos": {
+        "imagen": "posts/2026-11-12_acta_asamblea.png"
+      },
+      "aprobado": false,
+      "metricool": {
+        "id": 424714150,
+        "uuid": "1527401212748187574",
+        "programado": "2026-11-12T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=1527401212748187574"
+      }
+    },
+    {
+      "fecha": "2026-11-13",
+      "tipo": "post",
+      "tema": "proveedores: oficio y teléfono",
+      "angulo": "error común",
+      "colores": "ambar/coral",
+      "gancho": "¿Dónde estaba el fontanero?",
+      "pexels_ids": [
+        35290675
+      ],
+      "sha256": [
+        "2d3ae33b6c00cfc161f6c96596e6089ffff9f8ce95ac3c85956d6427f6365185"
+      ],
+      "archivos": {
+        "imagen": "posts/2026-11-13_proveedores.png"
+      },
+      "aprobado": false,
+      "metricool": {
+        "id": 425994177,
+        "uuid": "5718280262430244919",
+        "programado": "2026-11-13T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=5718280262430244919"
+      }
+    }
+  ]
 }
