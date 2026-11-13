@@ -434,7 +434,18 @@
    "archivos": {
     "imagen": "posts/2026-11-14_semaforo_averias.png"
    },
-   "aprobado": false
+   "aprobado": false,
+   "metricool": {
+    "id": 427405453,
+    "uuid": "3499082598862440627",
+    "programado": "2026-11-14T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=3499082598862440627"
+   }
   }
  ]
 }
