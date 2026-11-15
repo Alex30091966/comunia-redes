@@ -446,6 +446,64 @@
     "draft": true,
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=3499082598862440627"
    }
+  },
+  {
+   "fecha": "2026-11-15",
+   "tipo": "post",
+   "tema": "convocatoria de junta desde el panel",
+   "angulo": "paso a paso",
+   "colores": "violeta/rosa",
+   "gancho": "Convocar la junta. Tres pasos y enviada.",
+   "pexels_ids": [
+    7648040
+   ],
+   "sha256": [
+    "9df82c7f275e567d0cbfd9a1efe0571e6773d89078df1a8c3dbe71c90cd63661"
+   ],
+   "archivos": {
+    "imagen": "posts/2026-11-15_convocatoria.png"
+   },
+   "aprobado": false,
+   "metricool": {
+    "id": 428185810,
+    "uuid": "9158738034077812024",
+    "programado": "2026-11-15T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=9158738034077812024"
+   }
+  },
+  {
+   "fecha": "2026-11-16",
+   "tipo": "post",
+   "tema": "resumen del panel en una pantalla",
+   "angulo": "error común",
+   "colores": "cian/indigo",
+   "gancho": "¿Cinco ventanas abiertas? Todo en una pantalla.",
+   "pexels_ids": [
+    40123174
+   ],
+   "sha256": [
+    "4a148b2fec8022f4b93d9bf20c53a1bfe624a263cd86ddb385e7c91b13870b2a"
+   ],
+   "archivos": {
+    "imagen": "posts/2026-11-16_resumen_pantalla.png"
+   },
+   "aprobado": false,
+   "metricool": {
+    "id": 429089165,
+    "uuid": "-8649190896415193913",
+    "programado": "2026-11-16T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-8649190896415193913"
+   }
   }
  ]
 }
