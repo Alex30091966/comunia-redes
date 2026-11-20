@@ -533,6 +533,35 @@
         "draft": true,
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=8241477625073846854"
       }
+    },
+    {
+      "fecha": "2026-11-21",
+      "tipo": "post",
+      "tema": "aviso de avería por WhatsApp: el agente apunta y avisa",
+      "angulo": "antes/después",
+      "colores": "cian/lavanda",
+      "gancho": "Antes: una llamada a medianoche. Ahora: un aviso en tu panel.",
+      "pexels_ids": [
+        36571568
+      ],
+      "sha256": [
+        "9f16cbf408699481b124536801916c27d15d421bc1b122a90e056c65c7b55847"
+      ],
+      "archivos": {
+        "imagen": "posts/2026-11-21_aviso_whatsapp.png"
+      },
+      "aprobado": false,
+      "metricool": {
+        "id": 436033032,
+        "uuid": "5442142240808125694",
+        "programado": "2026-11-21T18:00 Europe/Madrid",
+        "redes": [
+          "instagram",
+          "facebook"
+        ],
+        "draft": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=5442142240808125694"
+      }
     }
   ]
 }
