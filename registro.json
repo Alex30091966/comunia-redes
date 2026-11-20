@@ -448,7 +448,7 @@
    }
   },
   {
-   "fecha": "2026-11-21",
+   "fecha": "2026-11-22",
    "tipo": "post",
    "tema": "importar comunidades y propietarios desde Excel",
    "angulo": "mito vs. realidad",
@@ -461,13 +461,13 @@
     "ad61e6ca85e2edabebc0c662e763feb109de22f6a2ca1a5d86bfa42ef3eb8fe8"
    ],
    "archivos": {
-    "imagen": "posts/2026-11-21_importar_excel.png"
+    "imagen": "posts/2026-11-22_importar_excel.png"
    },
    "aprobado": false,
    "metricool": {
-    "id": 436034297,
+    "id": 436034941,
     "uuid": "-5954615301485084180",
-    "programado": "2026-11-21T18:00 Europe/Madrid",
+    "programado": "2026-11-22T18:00 Europe/Madrid",
     "redes": [
      "instagram",
      "facebook"
@@ -475,7 +475,7 @@
     "draft": true,
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-5954615301485084180"
    },
-   "nota": "El reel del 21 ya estaba programado desde el 8/11 (asistente te lleva), no se hizo otro."
+   "nota": "Preparado para el 21, pero el 21 ya tenía post (aviso WhatsApp, de otra tarea atrasada). Movido al domingo 22. En Metricool la imagen ya está copiada en su servidor."
   }
  ]
 }
