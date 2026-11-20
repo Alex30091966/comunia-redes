@@ -446,6 +446,36 @@
     "draft": true,
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=3499082598862440627"
    }
+  },
+  {
+   "fecha": "2026-11-21",
+   "tipo": "post",
+   "tema": "importar comunidades y propietarios desde Excel",
+   "angulo": "mito vs. realidad",
+   "colores": "esmeralda/cian",
+   "gancho": "¿Pasar todo a mano? Sube tu Excel y listo.",
+   "pexels_ids": [
+    40123174
+   ],
+   "sha256": [
+    "ad61e6ca85e2edabebc0c662e763feb109de22f6a2ca1a5d86bfa42ef3eb8fe8"
+   ],
+   "archivos": {
+    "imagen": "posts/2026-11-21_importar_excel.png"
+   },
+   "aprobado": false,
+   "metricool": {
+    "id": 436034297,
+    "uuid": "-5954615301485084180",
+    "programado": "2026-11-21T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-5954615301485084180"
+   },
+   "nota": "El reel del 21 ya estaba programado desde el 8/11 (asistente te lleva), no se hizo otro."
   }
  ]
 }
