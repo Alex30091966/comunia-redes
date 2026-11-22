@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:SG;src:url(../plantilla/public/space-grotesk-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:In;src:url(../plantilla/public/inter-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:In;src:url(../plantilla/public/inter-latin-800-normal.woff2);font-weight:800}
+:root{--a:#FDBA74;--b:#A78BFA}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;overflow:hidden;background:#0A0816;font-family:In;color:#fff;position:relative}
+.bg{position:absolute;inset:0;background:url(../banco/pool/fotos/8866819.jpg) center 20%/cover;filter:saturate(.85) contrast(1.05) blur(3px);transform:scale(1.04)}
+.ov1{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,8,22,.55) 0%,rgba(10,8,22,.15) 22%,rgba(10,8,22,.55) 44%,rgba(10,8,22,.93) 66%,#0A0816 100%)}
+.ov2{position:absolute;inset:0;background:rgba(80,40,120,.2);mix-blend-mode:color}
+.vig{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 40%,transparent 55%,rgba(0,0,0,.55) 100%)}
+.top{position:absolute;top:64px;left:72px;right:72px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:SG;font-size:44px;letter-spacing:-1px}
+.logo b{background:linear-gradient(92deg,var(--a),var(--b));-webkit-background-clip:text;color:transparent}
+.pill{font-size:21px;letter-spacing:4px;text-transform:uppercase;padding:12px 22px;border-radius:999px;background:rgba(14,12,30,.62);border:1.5px solid rgba(255,255,255,.18);backdrop-filter:blur(18px)}
+.card{position:absolute;top:220px;right:72px;width:640px;padding:30px 32px;border-radius:34px;background:rgba(14,12,30,.64);border:1.5px solid rgba(255,255,255,.14);backdrop-filter:blur(22px) saturate(140%);box-shadow:0 30px 80px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.12)}
+.lab{font-size:20px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:18px;display:flex;align-items:center;gap:10px}
+.dot{width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,var(--a),var(--b));box-shadow:0 0 16px var(--b)}
+.vec{display:flex;align-items:center;gap:18px;padding:18px 20px;border-radius:22px;background:rgba(255,255,255,.06);border:1.5px solid rgba(255,255,255,.12)}
+.av{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-family:SG;font-size:26px;background:rgba(255,255,255,.12)}
+.vn{font-size:27px;font-weight:800}.vs{font-size:21px;color:rgba(255,255,255,.6);margin-top:4px}
+.est{margin-left:auto;font-size:20px;font-weight:800;padding:9px 16px;border-radius:999px;color:#4ADE80;background:rgba(74,222,128,.14);border:1.5px solid rgba(74,222,128,.4)}
+.btn{margin-top:20px;font-size:24px;font-weight:800;text-align:center;padding:18px;border-radius:999px;color:#0A0816;background:linear-gradient(92deg,var(--a),var(--b));box-shadow:0 8px 30px rgba(167,139,250,.45)}
+.pdf{margin-top:18px;display:flex;align-items:center;gap:16px;padding:16px 20px;border-radius:20px;background:rgba(255,255,255,.08)}
+.ic{width:52px;height:62px;border-radius:10px;background:#fff;color:#0A0816;font-family:SG;font-size:16px;display:grid;place-items:end center;padding-bottom:8px;position:relative}
+.ic:before{content:"";position:absolute;top:0;right:0;border-style:solid;border-width:0 16px 16px 0;border-color:transparent #0A0816 transparent transparent;opacity:.25}
+.pn{font-size:22px;font-weight:800}.ps{font-size:19px;color:rgba(255,255,255,.6);margin-top:3px}
+.txt{position:absolute;left:72px;right:72px;bottom:150px}
+.hora{font-size:24px;letter-spacing:4px;color:var(--a);margin-bottom:20px;text-transform:uppercase}
+h1{font-family:SG;font-size:100px;line-height:.98;letter-spacing:-3.5px;text-shadow:0 6px 30px rgba(0,0,0,.45)}
+h1 i{font-style:normal;background:linear-gradient(92deg,var(--a),var(--b));-webkit-background-clip:text;color:transparent}
+.sub{font-size:30px;line-height:1.4;color:rgba(255,255,255,.75);margin-top:26px;max-width:900px}
+.foot{position:absolute;left:72px;right:72px;bottom:64px;display:flex;justify-content:space-between;font-size:22px;color:rgba(255,255,255,.55);border-top:1.5px solid rgba(255,255,255,.12);padding-top:22px}
+</style></head><body>
+<div class="bg"></div><div class="ov1"></div><div class="ov2"></div><div class="vig"></div>
+<div class="top"><div class="logo">Comun<b>IA</b></div><div class="pill">Un día del administrador</div></div>
+<div class="card">
+ <div class="lab"><span class="dot"></span>Vecinos</div>
+ <div class="vec"><div class="av">ML</div><div><div class="vn">Marta López</div><div class="vs">2.º B · Comunidad Mayor 14</div></div><div class="est">Al corriente</div></div>
+ <div class="btn">Certificado en PDF</div>
+ <div class="pdf"><div class="ic">PDF</div><div><div class="pn">Certificado de estar al corriente</div><div class="ps">Listo para enviar</div></div></div>
+</div>
+<div class="txt">
+ <div class="hora">11:40 · llama un vecino que vende el piso</div>
+ <h1>¿El certificado?<br><i>Un clic y<br>en PDF.</i></h1>
+ <div class="sub">De deuda o de estar al corriente, sale de la ficha del vecino. Sin plantillas ni copiar datos a mano.</div>
+</div>
+<div class="foot"><span>Vecinos · ComunIA</span><span>@comunia.cat</span></div>
+</body></html>
