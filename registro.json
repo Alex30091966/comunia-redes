@@ -476,6 +476,35 @@
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-5954615301485084180"
    },
    "nota": "Preparado para el 21, pero el 21 ya tenía post (aviso WhatsApp, de otra tarea atrasada). Movido al domingo 22. En Metricool la imagen ya está copiada en su servidor."
+  },
+  {
+   "fecha": "2026-11-24",
+   "tipo": "post",
+   "tema": "obligaciones con semáforo",
+   "angulo": "¿sabías que…?",
+   "colores": "ambar/coral",
+   "gancho": "¿Se te pasa una revisión? El semáforo no.",
+   "pexels_ids": [
+    26340849
+   ],
+   "sha256": [
+    "b1b85ebfdf912efe21c18d95682f5ff0d4dbb91444c4a14dbacf5a6c8360be91"
+   ],
+   "archivos": {
+    "imagen": "posts/2026-11-24_obligaciones_semaforo.png"
+   },
+   "aprobado": false,
+   "metricool": {
+    "id": 439146304,
+    "uuid": "-7810179457738518715",
+    "programado": "2026-11-24T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-7810179457738518715"
+   }
   }
  ]
 }
