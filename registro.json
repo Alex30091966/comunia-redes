@@ -495,7 +495,18 @@
     "html": "posts/2026-11-28_votacion_garaje.html"
    },
    "aprobado": false,
-   "nota": "El reel del 28 (zonas comunes) ya estaba programado; solo se prepara el post."
+   "nota": "El reel del 28 (zonas comunes) ya estaba programado; solo se prepara el post.",
+   "metricool": {
+    "id": 444813750,
+    "uuid": "-2221686709179432925",
+    "programado": "2026-11-28T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-2221686709179432925"
+   }
   }
  ]
 }
