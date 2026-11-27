@@ -476,6 +476,26 @@
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-5954615301485084180"
    },
    "nota": "Preparado para el 21, pero el 21 ya tenía post (aviso WhatsApp, de otra tarea atrasada). Movido al domingo 22. En Metricool la imagen ya está copiada en su servidor."
+  },
+  {
+   "fecha": "2026-11-28",
+   "tipo": "post",
+   "tema": "asambleas: votación con mayoría calculada sola",
+   "angulo": "error común",
+   "colores": "dorado/indigo",
+   "gancho": "¿Puerta nueva del garaje? La mayoría, sola.",
+   "pexels_ids": [
+    33086573
+   ],
+   "sha256": [
+    "a8d192fe0f1d07dbbcde7b58d105c4362c02bf6dd5f41555508f489d0c30379e"
+   ],
+   "archivos": {
+    "imagen": "posts/2026-11-28_votacion_garaje.png",
+    "html": "posts/2026-11-28_votacion_garaje.html"
+   },
+   "aprobado": false,
+   "nota": "El reel del 28 (zonas comunes) ya estaba programado; solo se prepara el post."
   }
  ]
 }
