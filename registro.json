@@ -493,7 +493,13 @@
       "archivos": {
         "imagen": "posts/2026-11-28_votacion_mayorias.png"
       },
-      "aprobado": false
+      "aprobado": false,
+      "metricool": {
+        "id": 444814760,
+        "uuid": "-149941958501645722",
+        "hora": "2026-11-28T18:00:00",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-149941958501645722"
+      }
     }
   ]
 }
