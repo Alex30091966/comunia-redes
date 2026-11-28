@@ -476,6 +476,25 @@
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=-5954615301485084180"
    },
    "nota": "Preparado para el 21, pero el 21 ya tenía post (aviso WhatsApp, de otra tarea atrasada). Movido al domingo 22. En Metricool la imagen ya está copiada en su servidor."
+  },
+  {
+   "fecha": "2026-11-29",
+   "tipo": "post",
+   "tema": "agenda: dictar una cita al Asistente",
+   "angulo": "un día del administrador",
+   "colores": "violeta/rosa",
+   "gancho": "¿Cuándo venía el fontanero? Díctalo y listo.",
+   "pexels_ids": [
+    7220892
+   ],
+   "sha256": [
+    "c7bd6253794ef38722798f70a78488e6304020dc29cee2d2cd4776cdca6a970a"
+   ],
+   "archivos": {
+    "imagen": "posts/2026-11-29_agenda_fontanero.png",
+    "html": "posts/2026-11-29_agenda_fontanero.html"
+   },
+   "aprobado": false
   }
  ]
 }
