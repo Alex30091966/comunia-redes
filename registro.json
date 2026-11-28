@@ -494,7 +494,18 @@
     "imagen": "posts/2026-11-29_agenda_fontanero.png",
     "html": "posts/2026-11-29_agenda_fontanero.html"
    },
-   "aprobado": false
+   "aprobado": false,
+   "metricool": {
+    "id": 445640299,
+    "uuid": "5031076571408516065",
+    "programado": "2026-11-29T18:00 Europe/Madrid",
+    "redes": [
+     "instagram",
+     "facebook"
+    ],
+    "draft": true,
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7379441&openWithPostUuid=5031076571408516065"
+   }
   }
  ]
 }
